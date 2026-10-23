@@ -1,5 +1,5 @@
-// Original study questions; business scenarios and figures are hypothetical.
-export const topics=[
+// Original study material with plausible, concept-based challenge choices. No publisher test-bank content.
+export const topics = [
  {
   "id": "scope5",
   "name": "Ask the right question",
@@ -43,16 +43,16 @@ export const topics=[
   "icon": "⚑"
  }
 ];
-export const questions=[
+export const questions = [
  {
   "id": "ch5-01",
   "topic": "scope5",
   "prompt": "What is the central purpose of marketing research?",
   "options": [
    "Generate information and insight that improve marketing decisions",
-   "Replace every management decision with a survey average",
-   "Collect the largest possible dataset regardless of relevance",
-   "Guarantee that every launch will succeed"
+   "Reduce uncertainty by selecting evidence aligned with management’s preferred action",
+   "Use satisfaction measurement as the main explanation of marketing performance",
+   "Describe market patterns separately from their implications for decisions"
   ],
   "answer": 0,
   "explanation": "Research links customers and markets to decisions through relevant information. Data collection is useful when the findings clarify a problem, opportunity, or course of action."
@@ -62,10 +62,10 @@ export const questions=[
   "topic": "scope5",
   "prompt": "Which statement is a marketing insight rather than a raw observation?",
   "options": [
-   "The survey has 12 questions",
+   "Checkout abandonment is concentrated among users who reach the delivery-fee screen",
    "Customers abandon checkout when late delivery fees make the total seem uncertain, suggesting a need for earlier disclosure",
-   "Checkout abandonment is 35%",
-   "The dataset contains 800 transactions"
+   "Average order value is lower among customers who leave before payment",
+   "More customers leave the delivery-fee screen than the product-selection screen"
   ],
   "answer": 1,
   "explanation": "An insight interprets the pattern and explains its relevance to a decision. The explanation should still be tested against evidence rather than treated as proven by a single statistic."
@@ -75,10 +75,10 @@ export const questions=[
   "topic": "scope5",
   "prompt": "Sales have declined. Which research problem is most actionable?",
   "options": [
-   "Prove that the sales team needs more advertising",
-   "Measure only logo preferences before considering any other cause",
+   "Test whether more advertising restores sales without examining other explanations",
+   "Use existing buyers’ satisfaction to explain the full market decline",
    "Determine which changes in customer choice, availability, or experience explain the decline in the defined market",
-   "Find out everything about every customer"
+   "Measure all residents’ awareness before defining the relevant customer market"
   ],
   "answer": 2,
   "explanation": "A useful definition is focused enough to guide a study while allowing plausible explanations. Defining the problem as proof of a favored solution introduces bias from the start."
@@ -88,9 +88,9 @@ export const questions=[
   "topic": "scope5",
   "prompt": "A team interviews buyers to discover possible reasons for a poorly understood problem. This is primarily…",
   "options": [
-   "Causal research that proves a treatment effect",
-   "A census of all consumers",
-   "A final sales quota",
+   "Descriptive research",
+   "Causal research",
+   "Demand forecasting from past sales",
    "Exploratory research"
   ],
   "answer": 3,
@@ -102,9 +102,9 @@ export const questions=[
   "prompt": "A survey estimates the percentage of target buyers aware of a brand. This is primarily…",
   "options": [
    "Descriptive research",
-   "An experiment proving what caused awareness",
-   "A product value analysis",
-   "A supplier performance contract"
+   "Exploratory research",
+   "Causal research",
+   "Experimental research"
   ],
   "answer": 0,
   "explanation": "Descriptive research measures characteristics or patterns, such as awareness levels. Estimating how many people know a brand differs from identifying what caused their awareness."
@@ -114,10 +114,10 @@ export const questions=[
   "topic": "scope5",
   "prompt": "A study asks whether changing a message causes more purchases. Which research purpose fits?",
   "options": [
-   "Corporate mission development",
+   "Descriptive research",
    "Causal research",
-   "Descriptive counting alone",
-   "Exploratory discussion alone"
+   "Exploratory research",
+   "Behavioral observation without a causal design"
   ],
   "answer": 1,
   "explanation": "The question concerns a cause-and-effect relationship. A suitable design needs to address competing explanations, not merely observe that message exposure and sales occurred together."
@@ -127,10 +127,10 @@ export const questions=[
   "topic": "scope5",
   "prompt": "Which sequence follows this chapter’s five-stage research process?",
   "options": [
-   "Set a sales quota → negotiate contracts → run ads → calculate inventory → approve suppliers",
-   "Analyze data → collect responses → define the population → identify the decision → select a topic",
+   "Define the problem → collect information → develop the plan → analyze information → make the decision",
+   "Develop the plan → define the problem → collect information → make the decision → analyze information",
    "Define the problem → develop the plan → collect information → analyze information → make the decision",
-   "Collect information → choose a preferred answer → define the problem → write questions → ignore alternatives"
+   "Define the problem → develop the plan → analyze information → collect information → make the decision"
   ],
   "answer": 2,
   "explanation": "The chapter connects a defined business problem to a research plan, collection, analysis, and a managerial decision. Planning and interpretation make data useful for action."
@@ -140,9 +140,9 @@ export const questions=[
   "topic": "scope5",
   "prompt": "Research is expected to improve a decision’s payoff by ₱80,000 and costs ₱100,000, with all other effects excluded. What follows?",
   "options": [
-   "Research is justified whenever the sample is large",
-   "The total business revenue must equal ₱80,000",
-   "The study guarantees a ₱20,000 profit",
+   "It is justified because the benefit recovers most research spending",
+   "It is justified by uncertainty reduction despite the lower payoff improvement",
+   "Its expected return is positive after adding the benefit to research cost",
    "Its expected incremental benefit does not justify its cost on these assumptions"
   ],
   "answer": 3,
@@ -154,9 +154,9 @@ export const questions=[
   "prompt": "Existing government statistics collected for another purpose are…",
   "options": [
    "Secondary data",
-   "Primary data simply because the company downloaded them today",
-   "Experimental treatments",
-   "An original focus-group transcript from this project"
+   "External primary data",
+   "Internal primary data",
+   "Custom-project data"
   ],
   "answer": 0,
   "explanation": "Secondary data already exist and were gathered for another purpose. Their usefulness depends on relevance, coverage, timing, and quality, not only ease of access."
@@ -166,10 +166,10 @@ export const questions=[
   "topic": "design5",
   "prompt": "A company commissions new interviews specifically to investigate its current launch. These produce…",
   "options": [
-   "A sales budget",
+   "Secondary data",
    "Primary data",
-   "Secondary data solely because a contractor conducts them",
-   "An industry forecast by definition"
+   "Syndicated data",
+   "Behavioral records"
   ],
   "answer": 1,
   "explanation": "Primary data are gathered for the current research purpose. They can be collected internally or through an external research organization."
@@ -179,10 +179,10 @@ export const questions=[
   "topic": "design5",
   "prompt": "Why usually examine suitable secondary data before commissioning primary research?",
   "options": [
-   "Primary research is always unnecessary",
-   "Secondary data automatically match the current population",
+   "They offer a stronger causal basis than newly designed research",
+   "They remove the need to define the population and sample",
    "They may answer the question more quickly and economically",
-   "Existing data can never be biased"
+   "Their prior collection establishes direct comparability with the current question"
   ],
   "answer": 2,
   "explanation": "An existing source can reduce cost and duplication when it fits the problem. Check definitions, recency, coverage, and credibility before relying on it."
@@ -192,9 +192,9 @@ export const questions=[
   "topic": "design5",
   "prompt": "A researcher watches how households use a product in everyday routines. Which approach is most evident?",
   "options": [
-   "A pricing experiment by definition",
-   "A structured census by definition",
-   "A sales force forecast",
+   "Survey research",
+   "Experimental research",
+   "Secondary-data analysis",
    "Observational research"
   ],
   "answer": 3,
@@ -206,9 +206,9 @@ export const questions=[
   "prompt": "A researcher spends time within consumers’ daily lives to understand unspoken practices and meanings. This is closest to…",
   "options": [
    "Ethnographic research",
-   "A supplier reverse auction",
-   "A statistical demand forecast",
-   "A closed-end poll only"
+   "Focus-group research",
+   "Behavioral-record analysis",
+   "Longitudinal survey research"
   ],
   "answer": 0,
   "explanation": "Ethnography seeks contextual and cultural understanding through immersion. It can reveal unmet needs that a brief survey misses, while its findings still require appropriate scope and interpretation."
@@ -218,10 +218,10 @@ export const questions=[
   "topic": "design5",
   "prompt": "Which limitation most directly applies to a small focus group?",
   "options": [
-   "Participants must be selected by a national census",
+   "Skilled moderation establishes the prevalence of each theme",
    "Its participants’ views cannot automatically represent the whole market",
-   "A moderator can never ask follow-up questions",
-   "It cannot generate useful exploratory ideas"
+   "Participant agreement removes the need to assess selection",
+   "Several focus groups together constitute a probability sample"
   ],
   "answer": 1,
   "explanation": "Focus groups help explore language, perceptions, and motives. Their small, selected samples and group dynamics make population percentages an inappropriate automatic inference."
@@ -231,10 +231,10 @@ export const questions=[
   "topic": "design5",
   "prompt": "Actual transaction records and website purchase paths are most directly used in…",
   "options": [
-   "An unstructured focus group only",
-   "A sample-size formula",
+   "Survey research",
+   "Ethnographic research",
    "Behavioral research",
-   "A brand personification exercise"
+   "Experimental research"
   ],
   "answer": 2,
   "explanation": "Behavioral data record what people do rather than only what they report. These records can reveal patterns, though they may not establish why the behavior occurred."
@@ -244,9 +244,9 @@ export const questions=[
   "topic": "design5",
   "prompt": "Which design most strengthens an A/B test of two advertising messages?",
   "options": [
-   "Change price, audience, and message together",
-   "Show one message only during a major holiday and the other in a quiet month",
-   "Ask managers which message they prefer and call it causal proof",
+   "Match on age but allow prices and campaign timing to differ",
+   "Compare total sales without adjusting for unequal message exposure",
+   "Use equal budgets for messages shown before and after launch",
    "Randomly assign comparable eligible users, change the message, and keep other conditions consistent"
   ],
   "answer": 3,
@@ -258,9 +258,9 @@ export const questions=[
   "prompt": "A survey lets people explain their main complaint in their own words. This is a…",
   "options": [
    "Open-end question",
-   "Dichotomous question",
-   "Semantic differential by definition",
-   "Fixed-choice importance scale"
+   "Closed-end multiple choice",
+   "Semantic differential",
+   "Dichotomous"
   ],
   "answer": 0,
   "explanation": "Open-end questions allow unanticipated answers and useful language to emerge. They need thoughtful coding and interpretation rather than simple automatic counts of fixed categories."
@@ -270,10 +270,10 @@ export const questions=[
   "topic": "instruments5",
   "prompt": "A question offers exactly Yes or No. Which type is it?",
   "options": [
-   "Story completion",
+   "Multiple-choice with several graded responses",
    "Dichotomous",
-   "Completely unstructured",
-   "Word association"
+   "Likert scale",
+   "Semantic differential"
   ],
   "answer": 1,
   "explanation": "Dichotomous questions offer two response choices. They are easy to tabulate but may oversimplify a situation when respondents need a genuine additional option."
@@ -283,10 +283,10 @@ export const questions=[
   "topic": "instruments5",
   "prompt": "Respondents rate agreement from strongly disagree to strongly agree. This is a…",
   "options": [
-   "Word-association exercise",
-   "Sampling frame",
+   "Semantic differential",
+   "Importance scale",
    "Likert scale",
-   "Semantic differential with opposite adjectives"
+   "Intention-to-buy scale"
   ],
   "answer": 2,
   "explanation": "A Likert item records degrees of agreement with a statement. Clear, neutral wording matters because the scale cannot rescue a biased or confusing proposition."
@@ -296,9 +296,9 @@ export const questions=[
   "topic": "instruments5",
   "prompt": "A brand is rated between the opposite descriptors modern and old-fashioned. This is a…",
   "options": [
-   "Dichotomous question",
-   "Purchase-frequency count",
-   "Sampling procedure",
+   "Likert agreement scale",
+   "Importance scale",
+   "Purchase-intention scale",
    "Semantic differential"
   ],
   "answer": 3,
@@ -310,9 +310,9 @@ export const questions=[
   "prompt": "Which item best avoids a leading, double-barreled question?",
   "options": [
    "How satisfied are you with the delivery speed?",
-   "How excellent and affordable is our outstanding service?",
-   "Do you agree our wonderful service is fast and cheap?",
-   "Why do you prefer our clearly superior delivery?"
+   "How satisfied are you with our delivery speed and customer support?",
+   "How much has our improved delivery service helped you?",
+   "How often do you benefit from our dependable delivery?"
   ],
   "answer": 0,
   "explanation": "The neutral item asks about one dimension. Questions that praise the offering or combine speed and price can distort responses and make interpretation difficult."
@@ -322,10 +322,10 @@ export const questions=[
   "topic": "instruments5",
   "prompt": "Asking repeatedly why a product attribute matters to uncover benefits and core values is…",
   "options": [
-   "Quota setting",
+   "Brand personification",
    "Laddering",
-   "Random sampling",
-   "Exponential smoothing"
+   "Word association",
+   "Visualization"
   ],
   "answer": 1,
   "explanation": "Laddering moves from an attribute through functional and emotional benefits toward deeper values. Follow-up questions should explore the respondent’s meaning rather than force the researcher’s theory."
@@ -335,10 +335,10 @@ export const questions=[
   "topic": "instruments5",
   "prompt": "Which three questions define a sampling plan?",
   "options": [
-   "Which supplier, which warranty, and which contract",
-   "Which dashboard, which quota, and which bonus",
+   "Whom to survey, what questions to ask, and which results to report",
+   "How many to survey, how much to spend, and when to launch",
    "Whom to survey, how many to survey, and how to select them",
-   "Which slogan, which font, and which celebrity"
+   "Which data to collect, how to analyze it, and which recommendation to make"
   ],
   "answer": 2,
   "explanation": "The sampling unit identifies who is studied, sample size specifies how many, and sampling procedure specifies selection. Each affects which inferences the study can reasonably support."
@@ -348,9 +348,9 @@ export const questions=[
   "topic": "instruments5",
   "prompt": "A survey uses only volunteers following the brand online. What is the key sampling concern?",
   "options": [
-   "A large follower count guarantees representativeness",
-   "Every target buyer has a known equal selection probability",
-   "Online responses cannot contain useful information",
+   "Random sampling error is the main remaining source of uncertainty",
+   "Follower engagement improves representativeness of prospective customers",
+   "The follower population’s size matters more than respondent selection",
    "Followers who respond may differ from the full target population"
   ],
   "answer": 3,
@@ -362,9 +362,9 @@ export const questions=[
   "prompt": "What is a common risk during data collection?",
   "options": [
    "Nonresponse, inaccessible respondents, or biased answers",
-   "The automatic elimination of all sampling error",
-   "Guaranteed agreement between stated and actual behavior",
-   "Certainty that all recruited people answer honestly"
+   "Forecast error from choosing an unsuitable projection model",
+   "A measured association being interpreted as causal",
+   "A recommendation becoming outdated after a market change"
   ],
   "answer": 0,
   "explanation": "Collection can fail through missing, uncooperative, or inaccurate responses. Quality procedures matter alongside recruitment volume and the design of the questions."
@@ -374,10 +374,10 @@ export const questions=[
   "topic": "evidence5",
   "prompt": "A very large survey includes mostly enthusiastic existing customers. Which conclusion is strongest?",
   "options": [
-   "All findings must be discarded without examination",
+   "More responses reduce selection bias in proportion to population coverage",
    "Large sample size alone does not remove selection bias",
-   "The results necessarily represent every prospective customer",
-   "Enthusiasm makes analysis unnecessary"
+   "Enthusiastic respondents improve external validity through stronger engagement",
+   "Selection bias becomes ordinary sampling error with enough observations"
   ],
   "answer": 1,
   "explanation": "A large biased sample can provide a precise picture of the wrong population. Assess who is missing and whether the sample supports the particular decision being made."
@@ -387,10 +387,10 @@ export const questions=[
   "topic": "evidence5",
   "prompt": "Ice-cream sales and sunburn rise together in summer. What is the best causal interpretation?",
   "options": [
-   "Sunburn necessarily causes every ice-cream sale",
-   "Correlation proves either variable directly causes the other",
+   "Ice-cream sales cause sunburn because purchases precede the reports",
+   "Sunburn drives sales because the two outcomes rise together",
    "A common factor such as hot weather may explain both",
-   "Ice-cream purchases necessarily cause sunburn"
+   "More observations would establish the causal direction"
   ],
   "answer": 2,
   "explanation": "An association does not isolate a causal effect. Consider shared causes and use an appropriate design before concluding that changing one observed variable will change the other."
@@ -400,9 +400,9 @@ export const questions=[
   "topic": "evidence5",
   "prompt": "Why use sensitivity analysis when interpreting a business study?",
   "options": [
-   "Remove every unfavorable observation",
-   "Replace the original research question",
-   "Guarantee that the preferred action is correct",
+   "Identify which observations to remove to strengthen the preferred result",
+   "Calculate a sample size that eliminates uncertainty from the forecast",
+   "Select assumptions that maximize projected returns",
    "Test whether conclusions change under plausible alternative assumptions"
   ],
   "answer": 3,
@@ -414,9 +414,9 @@ export const questions=[
   "prompt": "Which statement best describes the researcher–manager relationship?",
   "options": [
    "Research informs the decision, while managers weigh evidence and act",
-   "A survey mechanically replaces managerial responsibility",
-   "Managers should accept only favorable findings",
-   "Researchers should conceal uncertainty to strengthen a recommendation"
+   "Researchers provide findings but should leave out managerial implications",
+   "Researchers determine the action that managers should implement",
+   "Researchers resolve contradictory evidence before managers interpret results"
   ],
   "answer": 0,
   "explanation": "Researchers analyze and communicate implications, including limitations. Managers remain responsible for weighing evidence, objectives, resources, and uncertainty in choosing an action."
@@ -426,10 +426,10 @@ export const questions=[
   "topic": "evidence5",
   "prompt": "A research platform uses AI to code open-ended responses. What is a sound practice?",
   "options": [
-   "Present generated respondent quotations as real interviews",
+   "Validate the reasonableness of labels without reviewing source responses",
    "Validate coding against actual responses and check for error or bias",
-   "Assume fluent labels prove that every category is correct",
-   "Delete contradictory responses before validation"
+   "Treat model confidence as sufficient evidence of correct classification",
+   "Replace ambiguous real responses with generated examples fitting the categories"
   ],
   "answer": 1,
   "explanation": "AI can accelerate operational work but may misclassify meaning or invent details. Check a meaningful sample against source responses and preserve traceability to the real evidence."
@@ -439,10 +439,10 @@ export const questions=[
   "topic": "evidence5",
   "prompt": "An AI model invents survey statistics and references. What has failed?",
   "options": [
-   "The need to distinguish primary from secondary data has disappeared",
-   "The sample has automatically become representative",
+   "Sampling precision alone",
+   "External validity alone",
    "Data credibility and factual reliability",
-   "Only the visual design of the report"
+   "Measurement consistency alone"
   ],
   "answer": 2,
   "explanation": "Plausible text is not verified research evidence. Fabricated statistics or sources cannot support a marketing decision, even when the report appears confident and polished."
@@ -452,9 +452,9 @@ export const questions=[
   "topic": "evidence5",
   "prompt": "Which use of customer data best supports trustworthy research?",
   "options": [
-   "Publish identifiable responses for convenience",
-   "Treat public availability as permission for every possible use",
-   "Hide tracking methods to prevent questions",
+   "Protect identities but reuse responses for purposes not explained to participants",
+   "Collect accessible data first and decide the research purpose during analysis",
+   "Use identifiable quotations when they improve the report’s persuasive effect",
    "Use data with appropriate permission, protect identities, and match use to the stated purpose"
   ],
   "answer": 3,
@@ -466,9 +466,9 @@ export const questions=[
   "prompt": "Which definition best describes market demand?",
   "options": [
    "Total volume bought by a defined customer group, area, period, environment, and marketing program",
-   "A salesperson’s target regardless of market conditions",
-   "One firm’s maximum production capacity",
-   "All possible global purchases without any timeframe"
+   "The company’s expected sales under its current plan",
+   "The maximum industry sales attainable under the stated environment",
+   "The volume implied by adding the sales quotas of the participating firms"
   ],
   "answer": 0,
   "explanation": "Demand needs a defined scope and conditions. Without specifying the market, period, environment, and marketing assumptions, a demand estimate is difficult to interpret or compare."
@@ -478,10 +478,10 @@ export const questions=[
   "topic": "demand5",
   "prompt": "How does company demand relate to market demand?",
   "options": [
-   "It excludes competitive offerings from consideration",
+   "It is the firm’s maximum sales regardless of marketing effort",
    "It is the company’s estimated share at alternative levels of its marketing effort",
-   "It always equals the entire market",
-   "It is identical to the sales quota"
+   "It is the firm’s assigned sales target within market potential",
+   "It is market demand left after competitors serve their buyers"
   ],
   "answer": 1,
   "explanation": "Company demand depends on how the firm competes for the broader market. Its share can change with offering appeal, marketing effectiveness, and competitors’ actions."
@@ -491,10 +491,10 @@ export const questions=[
   "topic": "demand5",
   "prompt": "Which distinction between a market forecast and market potential is correct?",
   "options": [
-   "Potential is simply last year’s sales",
-   "Both terms mean the sales representative’s assigned quota",
+   "A forecast measures the upper opportunity; potential estimates likely purchases",
+   "A forecast assumes the firm’s plan; market potential equals its sales quota",
    "A forecast is expected demand; potential is the maximum under the stated conditions",
-   "The forecast is always larger than potential"
+   "Forecast and potential differ only in their monetary versus unit expression"
   ],
   "answer": 2,
   "explanation": "Expected sales under the anticipated environment differ from the market’s upper opportunity under the defined conditions. Neither is an unconditional promise about actual results."
@@ -504,9 +504,9 @@ export const questions=[
   "topic": "demand5",
   "prompt": "A company sales forecast is best understood as…",
   "options": [
-   "An aspirational quota with no supporting estimate",
-   "The maximum sales of every competitor combined",
-   "A guarantee of actual revenue",
+   "Maximum firm sales under sufficiently intensive marketing",
+   "The performance target assigned to the sales organization",
+   "The conservative volume used for production and cash commitments",
    "Expected sales under a chosen marketing plan and assumed environment"
   ],
   "answer": 3,
@@ -518,9 +518,9 @@ export const questions=[
   "prompt": "Which comparison among forecast, quota, and sales budget is most accurate?",
   "options": [
    "Forecast estimates sales; quota motivates effort; budget supports operating plans",
-   "All three must always be identical",
-   "Quota is the industry’s maximum demand",
-   "Budget is a measure of brand awareness"
+   "Forecast motivates effort; quota estimates sales; budget measures maximum demand",
+   "Forecast estimates market potential; quota allocates expenses; budget motivates sales effort",
+   "Forecast supports operations; quota measures historical sales; budget defines customer demand"
   ],
   "answer": 0,
   "explanation": "The chapter distinguishes an expected-sales estimate from a performance goal and an operating-planning estimate. A quota may stretch effort while a budget can use more conservative assumptions."
@@ -530,10 +530,10 @@ export const questions=[
   "topic": "demand5",
   "prompt": "A defined market has 2,000 possible buyers, each buying 3 units at ₱500. What is the simplified monetary market potential?",
   "options": [
-   "₱300,000",
-   "₱3,000,000",
    "₱1,000,000",
-   "₱6,000"
+   "₱3,000,000",
+   "₱6,000,000",
+   "₱1,500,000"
   ],
   "answer": 1,
   "explanation": "Multiply potential buyers by units per buyer and price: 2,000 × 3 × 500 = 3,000,000 pesos. This estimate depends on the stated population, period, quantity, and price assumptions."
@@ -543,8 +543,8 @@ export const questions=[
   "topic": "demand5",
   "prompt": "A company sells ₱12M in a ₱60M market during the same period. Its value market share is…",
   "options": [
-   "12%",
-   "50%",
+   "25%",
+   "16.7%",
    "20%",
    "5%"
   ],
@@ -556,9 +556,9 @@ export const questions=[
   "topic": "demand5",
   "prompt": "Company sales rise 5% while the comparable market grows 10%. What follows?",
   "options": [
-   "The company necessarily gains share",
-   "Its market share is unchanged",
-   "The company must have made a loss",
+   "Share rises by five percentage points because company sales grew",
+   "Share is stable because company and market sales both grew",
+   "Share declines by exactly five percentage points",
    "The company loses market share despite growing sales"
   ],
   "answer": 3,
@@ -570,9 +570,9 @@ export const questions=[
   "prompt": "RESEARCH LAB · A supplier combines salesperson estimates of future orders. Which method is this?",
   "options": [
    "Composite of sales force opinions",
-   "A controlled market experiment",
-   "Ethnographic immersion",
-   "A semantic differential"
+   "Survey of buyer intentions",
+   "Pooling of independent external expert estimates",
+   "Statistical demand analysis"
   ],
   "answer": 0,
   "explanation": "Sales teams can provide detailed territory and account knowledge. Adjust for optimism, pessimism, incomplete information, or incentives to understate demand for an easier quota."
@@ -582,10 +582,10 @@ export const questions=[
   "topic": "cases5",
   "prompt": "RESEARCH LAB · A bakery projects next December using prior sales adjusted for trend and recurring holiday peaks. Which method fits?",
   "options": [
-   "A supplier value-analysis workshop",
+   "Statistical demand analysis",
    "Time-series analysis",
-   "A buying-center role map",
-   "A purely qualitative focus group"
+   "Sales-force composite",
+   "Expert-opinion forecast"
   ],
   "answer": 1,
   "explanation": "Time-series analysis uses patterns in past observations, including trend and seasonality. Structural changes can break those patterns, so historical fit is not a guarantee of future accuracy."
@@ -595,10 +595,10 @@ export const questions=[
   "topic": "cases5",
   "prompt": "RESEARCH LAB · A service launches in a limited area to observe actual customer response before wider rollout. This is a…",
   "options": [
-   "Likert agreement item",
-   "Guaranteed national forecast",
+   "A buyer-intention survey",
+   "A sales-force composite",
    "Market test",
-   "Corporate mission statement"
+   "A historical demand projection"
   ],
   "answer": 2,
   "explanation": "A market test uses observed behavior under a limited launch. Check how well the test area and conditions reflect the intended wider market before extrapolating results."
@@ -608,9 +608,9 @@ export const questions=[
   "topic": "cases5",
   "prompt": "RESEARCH LAB · Experts revise forecasts over successive rounds using structured feedback. Which method is closest?",
   "options": [
-   "Word association",
-   "Dichotomous questioning",
-   "Vendor-managed inventory",
+   "One-round expert pooling",
+   "Negotiated group forecast",
+   "Sales-force composite",
    "Delphi method"
   ],
   "answer": 3,
@@ -622,9 +622,9 @@ export const questions=[
   "prompt": "RESEARCH LAB · A campaign gains many clicks but few profitable purchases. Which dashboard change is most useful?",
   "options": [
    "Connect engagement with conversion, customer outcomes, and incremental financial results",
-   "Declare clicks equivalent to contribution",
-   "Remove purchase data because it looks unfavorable",
-   "Use only the number of social posts"
+   "Use impressions and cost per click as the main economic measures",
+   "Attribute all post-exposure revenue to the campaign and compare media spending",
+   "Prioritize awareness and defer conversion analysis until the next annual plan"
   ],
   "answer": 0,
   "explanation": "A dashboard should track progress toward the actual objective. Attention can be useful, but conversion and financial measures reveal whether it leads to valuable business outcomes."
@@ -634,10 +634,10 @@ export const questions=[
   "topic": "cases5",
   "prompt": "RESEARCH LAB · Which set matches the chapter’s dashboard metric categories?",
   "options": [
-   "Physiological, safety, social, and esteem",
+   "Customer, unit, sales-quota, and operating-budget metrics",
    "Customer, unit, cash-flow, and brand metrics",
-   "Product, service, price, and distribution only",
-   "Initiator, user, buyer, and approver"
+   "Customer, channel, campaign, and competitor metrics",
+   "Awareness, intention, reach, and frequency metrics"
   ],
   "answer": 1,
   "explanation": "These categories connect customer behavior, product sales, financial return, and longer-term brand effects. Select relevant measures rather than collecting metrics simply because they are available."
@@ -647,10 +647,10 @@ export const questions=[
   "topic": "cases5",
   "prompt": "RESEARCH LAB · A brand’s share of online searches increases. What is the strongest conclusion?",
   "options": [
-   "Its profitability has necessarily increased",
-   "The signal removes the need to assess availability and price",
+   "Search-share growth is preference growth and should be reported as market-share gain",
+   "Search growth alone justifies spending expansion before query-intent analysis",
    "It may be an early signal, but purchase outcomes and the full marketing program still need checking",
-   "Its sales market share must equal its search share"
+   "Search interest establishes return because it indicates active demand"
   ],
   "answer": 2,
   "explanation": "Search interest can be informative without being equivalent to sales. Whether attention converts depends on factors such as product fit, pricing, distribution, and the meaning of the searches."
@@ -660,16 +660,16 @@ export const questions=[
   "topic": "cases5",
   "prompt": "RESEARCH LAB · Six focus-group participants like a new cake, and management predicts 80% national adoption. What should change?",
   "options": [
-   "Treat six positive opinions as a national census",
-   "Call the discussion a randomized experiment",
-   "Increase the prediction because participants sounded enthusiastic",
+   "Average enthusiasm across more focus groups to estimate national adoption",
+   "Weight the six responses by demographics to create a representative survey",
+   "Launch nationally using the group’s percentage as the baseline forecast",
    "Use the group for exploratory insight, then measure demand with an appropriate design"
   ],
   "answer": 3,
   "explanation": "The discussion may reveal appeal and useful language, but it cannot justify a national adoption percentage. Broader measurement and behavioral evidence should match the forecast decision."
  }
 ];
-export const notes=[
+export const notes = [
  [
   "Research and insight",
   "Marketing research supplies decision-relevant information. An insight explains a pattern and its managerial implications; raw counts and fluent opinions are not enough."

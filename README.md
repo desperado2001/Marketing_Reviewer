@@ -66,3 +66,7 @@ Chapter 4: business-market characteristics, buying situations, seven buying-cent
 Chapter 5: research purposes and the five-stage process, primary/secondary data, research approaches and instruments, sampling and contact methods, analysis and AI limitations, demand measurement and forecasting, and productivity dashboards.
 
 Content was checked against the supplied 17th-edition textbook, Chapter 4 (printed pp. 76–90) and Chapter 5 (printed pp. 95–110). The 96 new questions, explanations, and hypothetical cases are independently written; they are not publisher test-bank items. No textbook PDF is distributed with the app.
+
+## Challenge answer choices
+
+All five chapters use revised distractors based on closely related concepts, incomplete interpretations, and plausible management actions. The 240 question IDs, correct answer text/indexes, and chapter storage keys are retained so prior progress and saved rounds remain compatible. Choices are shuffled each round. The harder bank is a content revision, not a separate difficulty mode.

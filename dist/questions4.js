@@ -1,5 +1,5 @@
-// Original study questions; business scenarios and figures are hypothetical.
-export const topics=[
+// Original study material with plausible, concept-based challenge choices. No publisher test-bank content.
+export const topics = [
  {
   "id": "markets4",
   "name": "Read the business market",
@@ -43,16 +43,16 @@ export const topics=[
   "icon": "⚑"
  }
 ];
-export const questions=[
+export const questions = [
  {
   "id": "ch4-01",
   "topic": "markets4",
   "prompt": "A bakery buys flour to make bread for sale. Why is this a business-market purchase?",
   "options": [
    "The input supports products the bakery sells to others",
-   "Any purchase paid in cash is a business purchase",
-   "Flour is always a consumer product regardless of use",
-   "Only purchases by large corporations qualify"
+   "The input is bought in bulk through a wholesale channel",
+   "The input is purchased regularly by a trained employee",
+   "The input is approved through a formal procurement process"
   ],
   "answer": 0,
   "explanation": "The purpose of the purchase matters: flour becomes an input to a commercial offering. The same bag bought for cooking at home would serve a consumer purpose."
@@ -62,10 +62,10 @@ export const questions=[
   "topic": "markets4",
   "prompt": "A rise in demand for home appliances leads factories to order more components. This illustrates…",
   "options": [
-   "Supplier-managed inventory",
+   "Fluctuating demand",
    "Derived demand",
-   "A straight rebuy by definition",
-   "Consumer variety seeking"
+   "Inelastic demand",
+   "Reciprocal purchasing"
   ],
   "answer": 1,
   "explanation": "Demand for the components follows demand for the final appliances. Business marketers should monitor their customers’ downstream markets as well as direct orders."
@@ -75,10 +75,10 @@ export const questions=[
   "topic": "markets4",
   "prompt": "A small increase in consumer demand causes a much larger increase in factory equipment orders. Which characteristic is illustrated?",
   "options": [
-   "Demand that depends only on equipment prices",
-   "A reduction in demand through disintermediation",
+   "Derived demand without an amplification effect",
+   "Relatively inelastic business demand",
    "Fluctuating business demand",
-   "Perfectly stable replacement demand"
+   "Demand concentration among a few large accounts"
   ],
   "answer": 2,
   "explanation": "Equipment demand can reflect both replacement and capacity expansion. Small changes in final demand can therefore produce larger swings in capital purchases."
@@ -88,9 +88,9 @@ export const questions=[
   "topic": "markets4",
   "prompt": "In the short run, a shoe factory changes leather purchases very little after leather prices rise. This best illustrates…",
   "options": [
-   "Perfectly elastic demand",
-   "An increase in consumer brand loyalty",
-   "The absence of derived demand",
+   "Derived demand",
+   "Fluctuating demand",
+   "A modified-rebuy response",
    "Relatively inelastic demand"
   ],
   "answer": 3,
@@ -102,9 +102,9 @@ export const questions=[
   "prompt": "Which situation most clearly shows a straight rebuy?",
   "options": [
    "Routine reordering of approved printer paper on unchanged terms",
-   "Buying a first enterprise security system",
-   "Changing the required paper grade and delivery terms",
-   "Evaluating a new production technology for the first time"
+   "Reordering approved paper after revising delivery frequency and payment terms",
+   "Requesting fresh bids for familiar paper after changing its quality specification",
+   "Testing a new office-paper grade before adding it to the approved list"
   ],
   "answer": 0,
   "explanation": "A straight rebuy repeats an established purchase with little new decision effort. Changing specifications or terms would move the example toward a modified rebuy."
@@ -114,10 +114,10 @@ export const questions=[
   "topic": "markets4",
   "prompt": "A firm changes delivery requirements and negotiates new terms for a familiar component. This is a…",
   "options": [
-   "Consumer impulse purchase",
-   "Modified rebuy",
    "Straight rebuy",
-   "New buy solely because an order is placed"
+   "Modified rebuy",
+   "New buy",
+   "Systems buying"
   ],
   "answer": 1,
   "explanation": "The product category is familiar, but important purchase conditions are being reconsidered. A modified rebuy can involve additional participants and supplier evaluation."
@@ -127,8 +127,8 @@ export const questions=[
   "topic": "markets4",
   "prompt": "A hospital purchases its first robotic surgery system. Which buying situation fits best?",
   "options": [
-   "Routine replenishment",
-   "Vendor-managed inventory by definition",
+   "Modified rebuy",
+   "Systems contracting",
    "New buy",
    "Straight rebuy"
   ],
@@ -140,9 +140,9 @@ export const questions=[
   "topic": "markets4",
   "prompt": "Which pattern commonly distinguishes business markets from consumer markets?",
   "options": [
-   "More buyers placing only tiny personal orders",
-   "Purchases made without formal requirements",
-   "The complete absence of intermediaries",
+   "More standardized orders with less customization",
+   "More direct purchases with less formal assessment",
+   "More dispersed buyers making smaller orders",
    "Fewer buyers placing larger orders"
   ],
   "answer": 3,
@@ -154,8 +154,8 @@ export const questions=[
   "prompt": "An operations manager first requests replacement equipment. Which role is most directly shown?",
   "options": [
    "Initiator",
-   "Approver",
-   "Gatekeeper",
+   "User",
+   "Influencer",
    "Buyer"
   ],
   "answer": 0,
@@ -166,10 +166,10 @@ export const questions=[
   "topic": "center4",
   "prompt": "Technicians who will operate the selected equipment are primarily…",
   "options": [
-   "Contract signatories by definition",
+   "Initiators",
    "Users",
-   "Approvers",
-   "External competitors"
+   "Influencers",
+   "Deciders"
   ],
   "answer": 1,
   "explanation": "Users experience the offering in practice and often help specify requirements. Using equipment does not automatically confer final approval or purchasing authority."
@@ -179,8 +179,8 @@ export const questions=[
   "topic": "center4",
   "prompt": "An engineer develops technical evaluation criteria but cannot authorize spending. Which role is clearest?",
   "options": [
+   "Decider",
    "Buyer",
-   "Gatekeeper solely because of job title",
    "Influencer",
    "Approver"
   ],
@@ -192,9 +192,9 @@ export const questions=[
   "topic": "center4",
   "prompt": "A committee determines which supplier meets the organization’s requirements. In that action, it acts as…",
   "options": [
-   "Initiator only",
-   "End user only",
-   "Information gatekeeper only",
+   "Influencer",
+   "Approver",
+   "Buyer",
    "Decider"
   ],
   "answer": 3,
@@ -206,9 +206,9 @@ export const questions=[
   "prompt": "The finance executive authorizes a proposed purchase after the technical choice is made. Which role is shown?",
   "options": [
    "Approver",
-   "User",
-   "Initiator",
-   "Research moderator"
+   "Decider",
+   "Buyer",
+   "Gatekeeper"
   ],
   "answer": 0,
   "explanation": "Approvers authorize the proposed actions of deciders or buyers. This role can be separate from the technical decision and from negotiation of commercial terms."
@@ -218,10 +218,10 @@ export const questions=[
   "topic": "center4",
   "prompt": "A procurement officer has formal authority to negotiate terms and arrange the purchase. This is the role of…",
   "options": [
-   "Independent auditor only",
+   "Decider",
    "Buyer",
-   "User only",
-   "Informal reference group"
+   "Approver",
+   "Gatekeeper"
   ],
   "answer": 1,
   "explanation": "Buyers manage supplier selection and purchase arrangements within their authority. Formal purchasing responsibility does not mean they are the only people shaping the outcome."
@@ -231,10 +231,10 @@ export const questions=[
   "topic": "center4",
   "prompt": "A procurement coordinator controls which vendors can meet the technical team. Which role is most evident?",
   "options": [
-   "Approver of all budgets",
-   "Product designer",
+   "Buyer",
+   "Influencer",
    "Gatekeeper",
-   "User"
+   "Decider"
   ],
   "answer": 2,
   "explanation": "Gatekeepers control access to information or participants. Respect the organization’s process while providing relevant material rather than assuming access equals decision authority."
@@ -244,9 +244,9 @@ export const questions=[
   "topic": "center4",
   "prompt": "Which statement about buying centers is most accurate?",
   "options": [
-   "Each role must have exactly one distinct employee",
-   "The most senior title always determines every criterion",
-   "All members assess suppliers using identical priorities",
+   "Roles overlap, but formal buyers normally hold final authorization",
+   "The center comprises procurement plus technical advisers without decision influence",
+   "Shared roles imply equal authority and identical evaluation criteria",
    "One person may perform several roles, and several people may share a role"
   ],
   "answer": 3,
@@ -258,9 +258,9 @@ export const questions=[
   "prompt": "Which sequence best matches the eight-stage business-buying model?",
   "options": [
    "Recognition → need description → specification → supplier search → proposals → selection → contract → review",
-   "Recognition → contract → review → specification → proposals → search → selection → need description",
-   "Supplier selection → recognition → payment → advertising → search → need description → disposal → contract",
-   "Need description → review → recognition → proposals → specification → contract → search → selection"
+   "Recognition → specification → need description → supplier search → proposals → selection → contract → review",
+   "Recognition → need description → specification → proposals → supplier search → selection → contract → review",
+   "Recognition → need description → specification → supplier search → selection → proposals → contract → review"
   ],
   "answer": 0,
   "explanation": "The model moves from identifying a problem to defining requirements, evaluating suppliers, agreeing terms, and reviewing results. Routine rebuys may compress or bypass stages."
@@ -270,10 +270,10 @@ export const questions=[
   "topic": "process4",
   "prompt": "A plant notices frequent machine failures and identifies the need for replacement. Which stage comes first here?",
   "options": [
-   "Contract negotiation",
+   "General need description",
    "Problem recognition",
-   "Proposal solicitation",
-   "Supplier performance review after purchase"
+   "Product specification",
+   "Supplier search"
   ],
   "answer": 1,
   "explanation": "Recognizing an operational gap starts the buying process. The organization must still define the needed benefits and specifications before comparing detailed supplier offers."
@@ -283,10 +283,10 @@ export const questions=[
   "topic": "process4",
   "prompt": "A team states the required capacity, reliability, and quantity before final engineering details. This primarily concerns…",
   "options": [
-   "Final contract execution",
-   "Brand valuation",
+   "Product specification",
+   "Problem recognition",
    "General need description",
-   "Supplier performance review"
+   "Proposal solicitation"
   ],
   "answer": 2,
   "explanation": "Need description establishes what the organization needs in general terms. Detailed technical requirements belong to product specification, which builds on that description."
@@ -296,9 +296,9 @@ export const questions=[
   "topic": "process4",
   "prompt": "Engineers identify an overdesigned component and consider cheaper methods without reducing required performance. This is…",
   "options": [
-   "Automatic acceptance of the lowest bid",
-   "A customer awareness survey",
-   "An exclusively promotional incentive",
+   "Supplier value scoring",
+   "Total cost of ownership analysis",
+   "Performance review",
    "Product value analysis"
   ],
   "answer": 3,
@@ -310,9 +310,9 @@ export const questions=[
   "prompt": "A buyer uses directories, trade shows, and online marketplaces to identify qualified vendors. Which stage is clearest?",
   "options": [
    "Supplier search",
-   "Postpurchase performance review",
-   "General need recognition only",
-   "Contract renewal after acceptance"
+   "Proposal solicitation",
+   "Supplier selection",
+   "General need description"
   ],
   "answer": 0,
   "explanation": "The buyer is identifying possible sources of supply. This precedes requesting proposals and choosing among vendors using the relevant evaluation criteria."
@@ -322,10 +322,10 @@ export const questions=[
   "topic": "process4",
   "prompt": "Qualified suppliers are asked to submit written solutions and present their benefits. This is…",
   "options": [
-   "A blanket contract by definition",
+   "Supplier search",
    "Proposal solicitation",
-   "Problem recognition",
-   "Vendor-managed replenishment"
+   "Supplier selection",
+   "Contract negotiation"
   ],
   "answer": 1,
   "explanation": "Proposal solicitation requests comparable offers from potential suppliers. A strong response explains customer outcomes and evidence as well as technical specifications."
@@ -335,10 +335,10 @@ export const questions=[
   "topic": "process4",
   "prompt": "Before supplier selection, a buyer ranks reliability, service, and price by importance. What follows most logically?",
   "options": [
-   "Ignore the criteria once presentations begin",
-   "Use price alone despite the stated priorities",
+   "Select the supplier strongest on the easiest criterion to verify",
+   "Use weights to shortlist, then select solely on quoted price",
    "Evaluate suppliers against the weighted criteria",
-   "Choose whichever proposal is longest"
+   "Give all criteria equal weight to balance departmental influence"
   ],
   "answer": 2,
   "explanation": "Supplier evaluation should reflect the buyer’s actual priorities. Transparent criteria help compare benefits and costs rather than confusing presentation polish with value."
@@ -348,9 +348,9 @@ export const questions=[
   "topic": "process4",
   "prompt": "After implementation, a buyer gathers user feedback and rates delivery and reliability. This is…",
   "options": [
-   "Initial supplier search",
-   "Proposal solicitation",
-   "General need description only",
+   "Supplier selection",
+   "Product value analysis",
+   "Contract negotiation",
    "Performance review"
   ],
   "answer": 3,
@@ -362,9 +362,9 @@ export const questions=[
   "prompt": "A customer wants a complete operating system from one accountable provider instead of separate components. Which approach fits?",
   "options": [
    "Systems selling",
-   "Selling only the lowest-priced component",
-   "Unrelated product bundling without integration",
-   "Consumer sampling"
+   "Product-line selling",
+   "Blanket purchasing",
+   "Customer-managed integration"
   ],
   "answer": 0,
   "explanation": "Systems selling supplies a coordinated solution to the buyer’s problem. Accountability and integration must be supported by delivery capability, rather than merely putting items on one quotation."
@@ -374,10 +374,10 @@ export const questions=[
   "topic": "value4",
   "prompt": "What most clearly distinguishes a solution proposal from a product list?",
   "options": [
-   "It guarantees the customer will never need support",
+   "It consolidates more components into one quotation",
    "It connects integrated products and services to a defined business problem",
-   "It contains more product codes",
-   "It avoids discussing implementation"
+   "It satisfies specifications without addressing operating outcomes",
+   "It delegates component choice while preserving separate accountability"
   ],
   "answer": 1,
   "explanation": "A solution explains how the pieces work together to produce the desired result. A longer bill of materials does not by itself demonstrate customer value or operational readiness."
@@ -387,10 +387,10 @@ export const questions=[
   "topic": "value4",
   "prompt": "A supplier adds maintenance and operator training to equipment. What is the main strategic opportunity?",
   "options": [
-   "Make product performance irrelevant",
-   "Ensure all services are profitable regardless of cost",
+   "Increase dependence so customers face fewer practical alternatives",
+   "Lower the equipment price while treating support as a separate profit center",
    "Improve customer value and deepen the relationship through useful services",
-   "Eliminate every delivery obligation"
+   "Replace product differentiation with broader communication coverage"
   ],
   "answer": 2,
   "explanation": "Services can improve use, reliability, and predictability while supporting differentiation. Their economics and delivery quality still need to be assessed rather than assumed."
@@ -400,9 +400,9 @@ export const questions=[
   "topic": "value4",
   "prompt": "Why can an established brand matter in B2B purchasing?",
   "options": [
-   "It removes the need to verify technical fit",
-   "It guarantees the lowest total ownership cost",
-   "It makes every supplier objectively identical",
+   "It substitutes reputation for vendor-specific implementation checks",
+   "It establishes lifecycle cost without customer-specific evidence",
+   "It standardizes commercial terms and thereby removes perceived risk",
    "It can reduce perceived risk and help managers justify their choice"
   ],
   "answer": 3,
@@ -414,9 +414,9 @@ export const questions=[
   "prompt": "Two machines have the same purchase price, but one needs less energy and maintenance. Which comparison is most useful?",
   "options": [
    "Total cost of ownership over the relevant life",
-   "Purchase price alone",
-   "Number of brochure pages",
-   "The supplier’s advertising spend alone"
+   "Purchase price plus the initial installation cost",
+   "Annual energy expenditure alone",
+   "Depreciated accounting value at the end of use"
   ],
   "answer": 0,
   "explanation": "Ownership costs include operating and maintenance costs beyond acquisition. Use comparable assumptions and time horizons so the cheaper-looking option does not hide later expense."
@@ -426,10 +426,10 @@ export const questions=[
   "topic": "value4",
   "prompt": "A seller quantifies the financial benefit of reduced downtime using the customer’s operating data. This is closest to…",
   "options": [
-   "An unrelated market-size estimate",
+   "Supplier attribute scoring",
    "Economic value analysis",
-   "A brand awareness count",
-   "A straight rebuy classification"
+   "Product value analysis",
+   "Market potential estimation"
   ],
   "answer": 1,
   "explanation": "Economic value analysis translates functional benefits into money under stated assumptions. Customer-specific evidence is more persuasive than unsupported claims of universal savings."
@@ -439,10 +439,10 @@ export const questions=[
   "topic": "value4",
   "prompt": "A customer faces price pressure. Which seller response best supports meaningful differentiation?",
   "options": [
-   "Offer a discount before understanding the concern",
-   "Replace the business case with additional product codes",
+   "Discount for faster commitment before validating the source of price pressure",
+   "Add complimentary features without checking the buyer’s priorities",
    "Show relevant benefits and lifecycle costs with credible evidence",
-   "Describe all competitors as identical"
+   "Use premium positioning itself to justify retaining the quoted price"
   ],
   "answer": 2,
   "explanation": "Price objections can reflect unclear value as well as affordability. Establish the buyer’s priorities and quantify supported benefits before selecting an appropriate commercial response."
@@ -452,9 +452,9 @@ export const questions=[
   "topic": "value4",
   "prompt": "Under an agreed price, a supplier replenishes stocks using access to the customer’s inventory levels. This primarily illustrates…",
   "options": [
-   "A focus group",
-   "A new-buy requirement in every case",
-   "Uncoordinated spot purchasing",
+   "A blanket purchase agreement alone",
+   "A customer-managed reorder-point system",
+   "Spot purchasing through an electronic exchange",
    "Vendor-managed inventory"
   ],
   "answer": 3,
@@ -466,9 +466,9 @@ export const questions=[
   "prompt": "Which combination best captures the chapter’s three dimensions of corporate credibility?",
   "options": [
    "Expertise, trustworthiness, and likability",
-   "Reach, impressions, and clicks",
-   "Price, packaging, and shelf space",
-   "Inventory, depreciation, and tax"
+   "Expertise, reliability, and responsiveness",
+   "Trustworthiness, familiarity, and awareness",
+   "Competence, scale, and financial performance"
   ],
   "answer": 0,
   "explanation": "A credible supplier is capable, acts dependably with customers’ interests in mind, and is attractive to work with. Technical expertise is important but is not the entire picture."
@@ -478,10 +478,10 @@ export const questions=[
   "topic": "relationships4",
   "prompt": "A supplier provides honest comparisons and aligns employee incentives with customer outcomes. What does this most directly support?",
   "options": [
-   "Automatic acceptance of any price",
+   "Brand awareness",
    "Trust",
-   "Guaranteed immunity from competition",
-   "The elimination of all contracts"
+   "Supplier power",
+   "Purchasing reciprocity"
   ],
   "answer": 1,
   "explanation": "Trust is strengthened when information and behavior are dependable and aligned with customer needs. Credibility must be sustained through conduct rather than slogans alone."
@@ -491,10 +491,10 @@ export const questions=[
   "topic": "relationships4",
   "prompt": "A supplier buys machinery that can serve only one customer’s custom component. This is a…",
   "options": [
-   "Consumer purchase unrelated to a relationship",
-   "Marketing dashboard",
+   "General-purpose investment",
+   "Volume-purchase commitment",
    "Specific investment",
-   "General-purpose asset with equal value everywhere"
+   "Diversified capital expenditure"
   ],
   "answer": 2,
   "explanation": "The investment is tailored to a particular relationship and may have little alternative use. It can improve collaboration while increasing exposure if the relationship ends or terms change."
@@ -504,9 +504,9 @@ export const questions=[
   "topic": "relationships4",
   "prompt": "After a partner makes a hard-to-redeploy investment, a buyer exploits the partner’s dependence to demand unfair concessions. This illustrates…",
   "options": [
-   "Routine unbiased performance review",
-   "A reduction in switching costs",
-   "Proof that collaboration cannot create value",
+   "Joint-value bargaining",
+   "A performance safeguard",
+   "Switching-cost reduction",
    "Opportunism and hold-up risk"
   ],
   "answer": 3,
@@ -518,9 +518,9 @@ export const questions=[
   "prompt": "Which is the strongest approach to close buyer–supplier relationships?",
   "options": [
    "Match coordination effort to supply importance, complexity, and mutual value",
-   "Pursue maximum intimacy with every account regardless of cost",
-   "Replace all monitoring with personal friendship",
-   "Avoid adaptation after signing any contract"
+   "Use the closest strategic-partnership model across all suppliers",
+   "Prioritize transaction volume regardless of supply complexity",
+   "Choose relationship depth chiefly through short-term savings"
   ],
   "answer": 0,
   "explanation": "Not every transaction needs an intensive partnership. The appropriate arrangement depends on alternatives, supply importance and complexity, market conditions, and the economics for both parties."
@@ -530,10 +530,10 @@ export const questions=[
   "topic": "relationships4",
   "prompt": "A hospital buys meals for patients under a limited budget. Which institutional-market principle fits best?",
   "options": [
-   "Assume the purchase is purely for resale profit",
+   "Minimize expenditure while treating meal quality as discretionary",
    "Meet acceptable quality requirements while managing cost",
-   "Minimize price regardless of nutrition and patient experience",
-   "Treat every patient as the procurement decision maker"
+   "Maximize patient satisfaction independently of the service budget",
+   "Use food resale margin as the main purchasing criterion"
   ],
   "answer": 1,
   "explanation": "Institutional buyers serve people in their care and often face tight budgets. The task is to meet necessary service and quality standards, not simply select the cheapest possible input."
@@ -543,10 +543,10 @@ export const questions=[
   "topic": "relationships4",
   "prompt": "What should a supplier expect when selling to a government agency, as a general marketing principle?",
   "options": [
-   "The same procurement rules in every country",
-   "A guarantee that the lowest quoted price always wins",
+   "Relationship approval with documentation mainly after delivery",
+   "Lowest quoted price as the decisive rule for every purchase",
    "Formal procedures, documentation, and public accountability",
-   "Freedom to ignore the published evaluation process"
+   "Procedures matching those of a similar private enterprise"
   ],
   "answer": 2,
   "explanation": "Government buying often involves formal requirements and public scrutiny. Follow the specific agency’s published process; the chapter’s overview is not a universal rule about bid awards."
@@ -556,9 +556,9 @@ export const questions=[
   "topic": "relationships4",
   "prompt": "Which is a genuine risk of depending on one supplier?",
   "options": [
-   "Coordination necessarily becomes impossible",
-   "The buyer can never receive volume discounts",
-   "Every contract becomes a consumer transaction",
+   "Joint planning can make negotiated prices less transparent across the market",
+   "Long-term contracts can lower the number of supplier performance reviews required",
+   "Volume consolidation can increase the scale of an individual purchase order",
    "A disruption can remove the buyer’s only qualified source"
   ],
   "answer": 3,
@@ -570,9 +570,9 @@ export const questions=[
   "prompt": "B2B LAB · IT prefers a system’s performance, finance worries about ongoing cost, and operations fears migration downtime. What should the seller do?",
   "options": [
    "Map each participant’s criteria and develop a shared business case",
-   "Treat IT’s preference as final spending authorization",
-   "Present one generic message without investigating concerns",
-   "Speak only to the person requesting a quote"
+   "Win technical preference first and ask finance to accept the operating benefits",
+   "Lead with savings and defer migration concerns until supplier selection",
+   "Offer departmental packages without reconciling overall requirements"
   ],
   "answer": 0,
   "explanation": "The concerns represent different buying-center priorities. Address technical fit, economics, and operational risk in a coordinated proposal while confirming who decides and approves."
@@ -582,10 +582,10 @@ export const questions=[
   "topic": "cases4",
   "prompt": "B2B LAB · A familiar supplier’s product must now satisfy a changed security requirement. What buying situation fits?",
   "options": [
-   "Consumer habitual buying",
+   "Straight rebuy",
    "Modified rebuy",
-   "Straight rebuy with no reconsideration",
-   "New buy solely because the date changed"
+   "New buy",
+   "Systems contracting"
   ],
   "answer": 1,
   "explanation": "The category and supplier may be familiar, but changed requirements trigger renewed evaluation. Familiarity does not turn a material specification change into an unchanged reorder."
@@ -595,10 +595,10 @@ export const questions=[
   "topic": "cases4",
   "prompt": "B2B LAB · A manufacturer’s orders decline because shoppers buy fewer finished goods. What should its component supplier examine?",
   "options": [
-   "Only the component’s packaging color",
-   "Whether the purchase has stopped being organizational",
+   "Procurement’s negotiating style before considering downstream conditions",
+   "The component price before examining the customer’s production requirements",
    "Downstream consumer demand and its effect on customer production",
-   "Only the supplier’s logo recognition"
+   "Payment terms as the primary explanation of order-volume changes"
   ],
   "answer": 2,
   "explanation": "Derived demand connects component sales to final-product consumption. Reviewing downstream conditions can explain order changes that are not caused by the component supplier’s selling effort."
@@ -608,9 +608,9 @@ export const questions=[
   "topic": "cases4",
   "prompt": "B2B LAB · A server costs ₱1.0M plus ₱0.4M in stated lifetime operating costs; another costs ₱0.9M plus ₱0.7M. Ignoring discounting and other differences, which has lower total cost?",
   "options": [
-   "The second, because ₱0.9M is lower",
-   "They tie at ₱1.5M",
-   "The second, at ₱1.3M",
+   "The second, at ₱0.9M versus ₱1.0M",
+   "The first, at ₱0.4M versus ₱0.7M",
+   "They tie at ₱1.5M each",
    "The first, at ₱1.4M versus ₱1.6M"
   ],
   "answer": 3,
@@ -622,9 +622,9 @@ export const questions=[
   "prompt": "B2B LAB · An integration partner proposes installation, training, and support, but no clear owner for faults between products. What needs improvement?",
   "options": [
    "Responsibility and coordination within the solution",
-   "Only the number of devices in the proposal",
-   "The font size of the technical appendix",
-   "Removal of all service commitments"
+   "More products under the same brand",
+   "Broader user training without assigning cross-product support",
+   "A lower price to compensate for undefined support ownership"
   ],
   "answer": 0,
   "explanation": "A systems solution must explain who resolves cross-component problems. An attractive bundle can still fail if integration, handoffs, and accountability remain unclear."
@@ -634,10 +634,10 @@ export const questions=[
   "topic": "cases4",
   "prompt": "B2B LAB · A vendor’s custom tooling increases efficiency but cannot serve other buyers. What should both parties plan for?",
   "options": [
-   "A guarantee that tooling has equal resale value",
+   "Cost recovery through price while leaving exit and change issues unspecified",
    "Exit, change, and performance arrangements for relationship-specific assets",
-   "The assumption that dependence removes all risk",
-   "Automatic renewal without any review"
+   "An informal agreement to avoid reviewing alternatives during the relationship",
+   "Confidentiality terms as a substitute for asset-specific governance"
   ],
   "answer": 1,
   "explanation": "Specific investments can create mutual value and dependence. Agreements should address changes and disputes so efficiency gains do not leave either party exposed to avoidable hold-up risk."
@@ -647,10 +647,10 @@ export const questions=[
   "topic": "cases4",
   "prompt": "B2B LAB · A procurement officer can negotiate but must obtain CFO authorization. Which role distinction matters?",
   "options": [
-   "The CFO must be the end user",
-   "The buyer cannot influence commercial terms",
+   "The CFO is the buyer and procurement the gatekeeper",
+   "Procurement is the approver and the CFO the influencer",
    "Buyer and approver can be different people",
-   "The negotiator must also be the sole approver"
+   "Procurement is the user and the CFO the buyer"
   ],
   "answer": 2,
   "explanation": "Negotiating purchase terms and authorizing spending are separate roles. A sales team should verify both rather than equating a negotiated proposal with an approved transaction."
@@ -660,16 +660,16 @@ export const questions=[
   "topic": "cases4",
   "prompt": "B2B LAB · A supplier wins an order but repeatedly misses agreed delivery dates. What should the customer use to decide whether to continue?",
   "options": [
-   "The original presentation’s visual appeal alone",
-   "The number of unsolicited sales emails",
-   "A rule that contracts make review unnecessary",
+   "A price comparison excluding delivery-disruption costs",
+   "Supplier reputation instead of contract-specific experience",
+   "Relationship duration and sunk onboarding costs",
    "A performance review against agreed requirements"
   ],
   "answer": 3,
   "explanation": "Compare actual delivery, user experience, and other agreed criteria with expectations. Use the evidence to seek correction, modify the relationship, or consider alternative suppliers."
  }
 ];
-export const notes=[
+export const notes = [
  [
   "Business markets",
   "Organizational buyers acquire goods and services to support offerings supplied to others. Expect professional purchasing, larger accounts, and close coordination; use purchase purpose to distinguish B2B from household consumption."
