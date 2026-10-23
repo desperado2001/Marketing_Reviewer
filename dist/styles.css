@@ -4,3 +4,5 @@
 /* Chapter categories remain reachable on small screens. */
 .chapter-choice{width:100%;text-align:left;margin-bottom:10px;font-family:inherit;cursor:pointer;background:transparent;border-color:#40513f;color:#bdc9b9}.chapter-choice.selected{background:#293b2c;border-color:#8ba96a;color:var(--green)}.chapter-choice:hover{background:#304237}.chapter-choice .live-dot{background:#71816a}.chapter-choice.selected .live-dot{background:var(--green)}
 @media(max-width:800px){.sidebar{flex-wrap:wrap}.chapter-list{display:flex;gap:8px;flex-basis:100%;margin-top:9px}.chapter-card.chapter-choice{display:flex;flex:1;margin:0;padding:12px}.chapter-choice small{font-size:10px}.chapter-choice .chapter-arrow{display:none}}
+
+@media(max-width:520px){.chapter-list{flex-wrap:wrap}.chapter-card.chapter-choice{flex:1 1 135px;min-width:0}.chapter-choice small{letter-spacing:0}}

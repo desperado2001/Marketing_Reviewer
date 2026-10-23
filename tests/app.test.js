@@ -87,4 +87,24 @@ test('chapter switching retains legacy Chapter 1 progress and independently save
  await import('../dist/app.js?reload');
  assert.match(main.innerHTML,/Your Chapter 2 mission/);
  assert.match(main.innerHTML,/A mission is in progress/);
+ const {questions:chapter3}=await import('../dist/questions3.js');
+ const chapter1Before=store.get('marketquest-ch1-v1');
+ click({chapter:'ch3'});
+ assert.match(main.innerHTML,/Analyzing Consumer Markets/);
+ assert.match(nodes.get('.chapter-list').innerHTML,/CHAPTER 03/);
+ click({action:'start',mode:'mission',topic:'cases3'});
+ assert.match(main.innerHTML,/A DECISION FOR YOUR DESK/);
+ for(const q3 of chapter3.filter(q=>q.topic==='cases3')){
+  click({answer:String(q3.answer)});click({action:'next'});
+ }
+ assert.match(main.innerHTML,/A perfect run/);
+ assert.equal(saved('ch3').progress.runs,1);
+ assert.equal(Object.keys(saved('ch3').progress.seen).length,8);
+ assert.ok(Object.keys(saved('ch3').progress.seen).every(id=>id.startsWith('ch3-')));
+ assert.equal(store.get('marketquest-ch1-v1'),chapter1Before);
+ click({nav:'notes'});assert.match(main.innerHTML,/Maslow/);
+ click({chapter:'ch2'});
+ assert.match(main.innerHTML,/A mission is in progress/);
+ click({action:'resume'});assert.match(main.innerHTML,/QUESTION 1 \/ 10/);
+
 });
