@@ -39,3 +39,52 @@ test('play a full mission through UI events, persist, resume, and retry misses',
  click({nav:'notes'});assert.match(main.innerHTML,/Your field notes/);
  click({action:'reset'});assert.equal(saved().progress.runs,0);assert.equal(saved().run,null);
 });
+
+test('chapter switching retains legacy Chapter 1 progress and independently saves Chapter 2',async()=>{
+ const {questions:chapter2}=await import('../dist/questions2.js');
+ const {makeRun,recordAnswer,freshProgress,updateProgress}=await import('../dist/engine.js');
+ const handlers={},main={innerHTML:'',focus(){}},nodes=new Map();
+ const store=new Map();
+ // Seed the exact original Chapter 1 storage format, including a pending explanation.
+ const q=questions[0];let oldRun=makeRun(questions,{mode:'mission',topic:'foundations'});
+ oldRun=recordAnswer(oldRun,q,(q.answer+1)%4);
+ const legacy={progress:{...updateProgress(freshProgress(),q,(q.answer+1)%4),bestScore:900,runs:2},run:oldRun};
+ store.set('marketquest-ch1-v1',JSON.stringify(legacy));
+ globalThis.localStorage={getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)};
+ globalThis.document={querySelector:s=>{if(s==='#main')return main;if(!nodes.has(s))nodes.set(s,{focus(){},innerHTML:'',textContent:''});return nodes.get(s);},querySelectorAll:()=>[],addEventListener:(e,f)=>handlers[e]=f};
+ globalThis.window={scrollTo(){}};globalThis.confirm=()=>true;
+ await import('../dist/app.js?chapters');
+ const click=dataset=>handlers.click({target:{closest:()=>({dataset,disabled:false,matches:()=>false})}});
+ const saved=id=>JSON.parse(store.get(`marketquest-${id}-v1`));
+ assert.match(main.innerHTML,/900/);assert.match(main.innerHTML,/A mission is in progress/);
+ click({chapter:'ch2'});
+ assert.match(main.innerHTML,/Marketing Planning and Management/);
+ assert.match(main.innerHTML,/Turn insight into action/);
+ assert.match(nodes.get('.chapter-list').innerHTML,/CHAPTER 02/);
+ click({action:'start',mode:'mission',topic:'planning'});
+ assert.match(main.innerHTML,/Corporate planning/);
+ click({answer:String((chapter2[0].answer+1)%4)});
+ assert.deepEqual(saved('ch2').progress.missed,['ch2-01']);
+ assert.equal(saved('ch2').run.answers.length,1);
+ click({chapter:'ch1'});
+ assert.equal(saved('ch1').progress.bestScore,900);
+ assert.deepEqual(saved('ch1').progress.missed,['ch1-01']);
+ click({action:'resume'});assert.match(main.innerHTML,/A useful miss/);
+ click({chapter:'ch2'});click({action:'resume'});
+ assert.match(main.innerHTML,/A useful miss/);
+ assert.match(main.innerHTML,/Corporate planning/);
+ click({nav:'notes'});assert.match(main.innerHTML,/G-STIC/);
+ click({action:'reset'});
+ assert.equal(saved('ch2').run,null);assert.deepEqual(saved('ch2').progress.missed,[]);
+ assert.equal(saved('ch1').progress.bestScore,900);
+ assert.deepEqual(saved('ch1').progress.missed,['ch1-01']);
+ // Quick fire and retry only draw from the current chapter.
+ click({action:'start',mode:'quick'});
+ assert.equal(saved('ch2').run.items.length,10);
+ assert.ok(saved('ch2').run.items.every(i=>i.id.startsWith('ch2-')));
+ assert.equal(store.get('marketquest-selected-chapter'),'ch2');
+ // Reload selects Chapter 2 and restores its unfinished quick round.
+ await import('../dist/app.js?reload');
+ assert.match(main.innerHTML,/Your Chapter 2 mission/);
+ assert.match(main.innerHTML,/A mission is in progress/);
+});
