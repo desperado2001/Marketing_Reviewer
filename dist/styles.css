@@ -6,3 +6,7 @@
 @media(max-width:800px){.sidebar{flex-wrap:wrap}.chapter-list{display:flex;gap:8px;flex-basis:100%;margin-top:9px}.chapter-card.chapter-choice{display:flex;flex:1;margin:0;padding:12px}.chapter-choice small{font-size:10px}.chapter-choice .chapter-arrow{display:none}}
 
 @media(max-width:520px){.chapter-list{flex-wrap:wrap}.chapter-card.chapter-choice{flex:1 1 135px;min-width:0}.chapter-choice small{letter-spacing:0}}
+
+/* Keep all five chapter categories reachable on short and narrow screens. */
+@media(min-width:801px){.sidebar{overflow-y:auto}.sidebar-caption{margin-top:30px}.chapter-label{margin-top:20px}.chapter-choice{padding:12px;margin-bottom:8px}.sidebar-bottom{padding-top:22px}}
+@media(min-width:521px) and (max-width:800px){.chapter-list{flex-wrap:wrap}.chapter-card.chapter-choice{flex:1 1 170px;min-width:0}}

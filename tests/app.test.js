@@ -108,3 +108,48 @@ test('chapter switching retains legacy Chapter 1 progress and independently save
  click({action:'resume'});assert.match(main.innerHTML,/QUESTION 1 \/ 10/);
 
 });
+
+test('Chapters 4 and 5 complete missions, resume independently, and retry only their own misses',async()=>{
+ const {chapters}=await import('../dist/catalog.js');
+ const handlers={},main={innerHTML:'',focus(){}},nodes=new Map(),store=new Map();
+ globalThis.localStorage={getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)};
+ globalThis.document={querySelector:s=>{if(s==='#main')return main;if(!nodes.has(s))nodes.set(s,{focus(){},innerHTML:'',textContent:''});return nodes.get(s);},querySelectorAll:()=>[],addEventListener:(e,f)=>handlers[e]=f};
+ globalThis.window={scrollTo(){}};globalThis.confirm=()=>true;
+ await import('../dist/app.js?chapters45');
+ const click=dataset=>handlers.click({target:{closest:()=>({dataset,disabled:false,matches:()=>false})}});
+ const saved=id=>JSON.parse(store.get(`marketquest-${id}-v1`));
+ for(const chapter of chapters.filter(c=>c.number>=4)){
+  click({chapter:chapter.id});assert.ok(main.innerHTML.includes(chapter.title));
+  assert.match(nodes.get('.chapter-list').innerHTML,/CHAPTER 05/);
+  const topic=chapter.topics[5].id,mission=chapter.questions.filter(q=>q.topic===topic);
+  click({action:'start',mode:'mission',topic});
+  for(const [i,q] of mission.entries()){
+   click({answer:String(i===0?(q.answer+1)%4:q.answer)});
+   assert.ok(main.innerHTML.includes(q.explanation));
+   if(i===0){
+    const before=store.get(chapter.storageKey);
+    click({chapter:'ch1'});click({chapter:chapter.id});click({action:'resume'});
+    assert.equal(store.get(chapter.storageKey),before);assert.match(main.innerHTML,/A useful miss/);
+   }
+   click({action:'next'});
+  }
+  assert.match(main.innerHTML,/ROUND COMPLETE/);
+  assert.equal(saved(chapter.id).progress.runs,1);
+  assert.deepEqual(saved(chapter.id).progress.missed,[mission[0].id]);
+  click({action:'start',mode:'retry'});
+  assert.deepEqual(saved(chapter.id).run.items.map(q=>q.id),[mission[0].id]);
+  click({answer:String(mission[0].answer)});click({action:'next'});
+  assert.deepEqual(saved(chapter.id).progress.missed,[]);
+  click({nav:'notes'});assert.ok(main.innerHTML.includes(chapter.notes[0][0]));
+  click({action:'start',mode:'quick'});
+  assert.equal(saved(chapter.id).run.items.length,10);
+  assert.ok(saved(chapter.id).run.items.every(q=>q.id.startsWith(chapter.id+'-')));
+ }
+ const prior=store.get('marketquest-ch4-v1');
+ await import('../dist/app.js?chapters45reload');
+ assert.match(main.innerHTML,/Your Chapter 5 mission/);
+ click({action:'resume'});assert.match(main.innerHTML,/QUESTION 1 \/ 10/);
+ click({action:'reset'});
+ assert.equal(store.get('marketquest-ch4-v1'),prior);
+ assert.equal(saved('ch5').run,null);
+});

@@ -1,10 +1,10 @@
 # MarketQuest — Marketing Reviewer
 
-A responsive, buildless quiz game with separate categories for Chapter 1, **Defining Marketing for the New Realities**, Chapter 2, **Marketing Planning and Management**, and Chapter 3, **Analyzing Consumer Markets**, based on the accompanying reviewers for Kotler, Keller & Chernev’s *Marketing Management*, 17th edition.
+A responsive, buildless quiz game with separate categories for Chapter 1, **Defining Marketing for the New Realities**, Chapter 2, **Marketing Planning and Management**, Chapter 3, **Analyzing Consumer Markets**, Chapter 4, **Analyzing Business Markets**, and Chapter 5, **Conducting Marketing Research**, based on the accompanying reviewers for Kotler, Keller & Chernev’s *Marketing Management*, 17th edition.
 
 ## Play
 
-- **Campaign:** all 48 original questions across six topics in the selected chapter (144 questions total).
+- **Campaign:** all 48 original questions across six topics in the selected chapter (240 questions total).
 - **Topic missions:** eight questions each, including a boardroom case mission.
 - **Quick fire:** ten randomly selected questions, with no timer pressure.
 - **Comeback round:** retry questions whose latest attempt was incorrect.
@@ -40,6 +40,8 @@ npm run check
 - `dist/questions.js` — Chapter 1 question bank, topics, and field notes
 - `dist/questions2.js` — Chapter 2 question bank, topics, and field notes
 - `dist/questions3.js` — Chapter 3 question bank, topics, and field notes
+- `dist/questions4.js` — Chapter 4 question bank, topics, and field notes
+- `dist/questions5.js` — Chapter 5 question bank, topics, and field notes
 - `dist/catalog.js` — chapter categories and persistent storage keys
 - `dist/engine.js` — pure round, scoring, and progress logic
 - `dist/app.js` — interface, persistence, and keyboard controls
@@ -49,10 +51,18 @@ Publish the `dist` directory on any static host. A ChatGPT Sites deployment is a
 
 ## Educational scope
 
-All questions and scenarios are original study material derived from the chapter reviewers. They are not copied from a publisher test bank. Examples are hypothetical; no customer or employer confidential information is included. Refer to the assigned textbook and instructor materials for authoritative coverage. Chapters 4–5 are not implemented yet.
+All questions and scenarios are original study material derived from the chapter reviewers. They are not copied from a publisher test bank. Examples are hypothetical; no customer or employer confidential information is included. Refer to the assigned textbook and instructor materials for authoritative coverage.
 
 ## Chapter 3 coverage
 
 Six missions cover cultural/social/personal influences, motivation and needs, perception/emotions/memory, the buying process, evaluation/involvement/risk, and original applied scenarios. The weighted-score question uses explicit hypothetical weights and ratings.
 
 Chapter naming was checked against Pearson’s [17th-edition contents flyer](https://in.pearson.com/content/dam/region-growth/india/pearson-india/in-pdc/pdf/Flyer-Marketing-Management-17e-9789367138199.pdf). Questions are independently written and are not publisher assessment items.
+
+## Chapters 4–5 coverage
+
+Chapter 4: business-market characteristics, buying situations, seven buying-center roles, eight buying stages, solutions and services, economic value, trust and specific investments, institutional and government buying.
+
+Chapter 5: research purposes and the five-stage process, primary/secondary data, research approaches and instruments, sampling and contact methods, analysis and AI limitations, demand measurement and forecasting, and productivity dashboards.
+
+Content was checked against the supplied 17th-edition textbook, Chapter 4 (printed pp. 76–90) and Chapter 5 (printed pp. 95–110). The 96 new questions, explanations, and hypothetical cases are independently written; they are not publisher test-bank items. No textbook PDF is distributed with the app.
