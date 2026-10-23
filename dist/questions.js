@@ -1,4 +1,4 @@
-// Original study material with plausible, concept-based challenge choices. No publisher test-bank content.
+// Original study material with an explanation for every answer choice.
 export const topics = [
  {
   "id": "foundations",
@@ -55,7 +55,13 @@ export const questions = [
    "Estimating distributor orders for a finalized tank design"
   ],
   "answer": 0,
-  "explanation": "Marketing starts with understanding needs. Research can shape what gets designed, rather than only how an existing offering is promoted."
+  "explanation": "Marketing starts with understanding needs. Research can shape what gets designed, rather than only how an existing offering is promoted.",
+  "optionExplanations": [
+   "Marketing starts with understanding needs. Research can shape what gets designed, rather than only how an existing offering is promoted.",
+   "Forecasting estimates sales; it does not show customer needs shaping the product before design.",
+   "The tank is already specified, so testing messages shapes communication rather than the underlying offering.",
+   "The finalized design is being sold to a channel; customer constraints have not informed its design here."
+  ]
  },
  {
   "id": "ch1-02",
@@ -68,7 +74,13 @@ export const questions = [
    "Managing exchanges primarily through efficient pricing and distribution"
   ],
   "answer": 1,
-  "explanation": "Marketing management combines target-market choices with value creation and relationship management. Promotion and pricing are only parts of that work."
+  "explanation": "Marketing management combines target-market choices with value creation and relationship management. Promotion and pricing are only parts of that work.",
+  "optionExplanations": [
+   "Segmentation and promotion matter, but transaction volume omits delivery, retention, and broader value management.",
+   "Marketing management combines target-market choices with value creation and relationship management. Promotion and pricing are only parts of that work.",
+   "Market-share growth is one possible objective; it does not fully define customer selection and value management.",
+   "Pricing and distribution are tactics within marketing management, not its complete scope."
+  ]
  },
  {
   "id": "ch1-03",
@@ -81,7 +93,13 @@ export const questions = [
    "Customer value"
   ],
   "answer": 2,
-  "explanation": "A want supported by purchasing capacity becomes demand. Reliable water is the need; the slim tank is a preferred solution."
+  "explanation": "A want supported by purchasing capacity becomes demand. Reliable water is the need; the slim tank is a preferred solution.",
+  "optionExplanations": [
+   "A want identifies the preferred solution; the stated ability to afford it adds the condition that makes it demand.",
+   "The need is reliable water access, not the particular affordable tank preference.",
+   "A want supported by purchasing capacity becomes demand. Reliable water is the need; the slim tank is a preferred solution.",
+   "Value compares benefits with sacrifices; the question identifies a want backed by purchasing capacity."
+  ]
  },
  {
   "id": "ch1-04",
@@ -94,7 +112,13 @@ export const questions = [
    "Its total perceived benefits may outweigh its total sacrifices"
   ],
   "answer": 3,
-  "explanation": "Customers evaluate money alongside effort, time, risk, and benefits. A higher upfront price can still offer stronger perceived value."
+  "explanation": "Customers evaluate money alongside effort, time, risk, and benefits. A higher upfront price can still offer stronger perceived value.",
+  "optionExplanations": [
+   "Operating costs are only one sacrifice; risk, acquisition cost, and other benefits still affect perceived value.",
+   "Savings do not make initial prices identical; buyers compare different prices against the full benefits and costs.",
+   "A premium is a price signal, not proof that the offering delivers superior value.",
+   "Customers evaluate money alongside effort, time, risk, and benefits. A higher upfront price can still offer stronger perceived value."
+  ]
  },
  {
   "id": "ch1-05",
@@ -107,7 +131,13 @@ export const questions = [
    "Marketing manages promotions; selling translates customer needs into offerings"
   ],
   "answer": 0,
-  "explanation": "Selling is an important activity, but marketing also guides customer selection, offering design, delivery, and relationships. Complex purchases can still need salespeople."
+  "explanation": "Selling is an important activity, but marketing also guides customer selection, offering design, delivery, and relationships. Complex purchases can still need salespeople.",
+  "optionExplanations": [
+   "Selling is an important activity, but marketing also guides customer selection, offering design, delivery, and relationships. Complex purchases can still need salespeople.",
+   "Both marketing and selling can support acquisition and retention; this is not their defining distinction.",
+   "Marketing helps choose target customers and offerings, rather than only selecting messages.",
+   "Promotion is only part of marketing; understanding needs and shaping offerings are broader responsibilities."
+  ]
  },
  {
   "id": "ch1-06",
@@ -120,7 +150,13 @@ export const questions = [
    "An experience"
   ],
   "answer": 1,
-  "explanation": "Locations can be marketed for investment, tourism, residence, or other purposes. Marketing extends beyond physical goods."
+  "explanation": "Locations can be marketed for investment, tourism, residence, or other purposes. Marketing extends beyond physical goods.",
+  "optionExplanations": [
+   "An agency may run the campaign, but the object promoted is the location as an investment destination.",
+   "Locations can be marketed for investment, tourism, residence, or other purposes. Marketing extends beyond physical goods.",
+   "Ownership interests would be properties; the city itself is being promoted here.",
+   "An investor visit could be an experience, but the campaign’s primary offering is the destination."
+  ]
  },
  {
   "id": "ch1-07",
@@ -133,7 +169,13 @@ export const questions = [
    "Using experimental results as a substitute for interpretive judgment"
   ],
   "answer": 2,
-  "explanation": "Evidence supports decisions, while creativity and judgment help interpret the evidence and design a useful response."
+  "explanation": "Evidence supports decisions, while creativity and judgment help interpret the evidence and design a useful response.",
+  "optionExplanations": [
+   "Seeking data only to validate a preferred campaign risks confirmation bias rather than an open evidence-based decision.",
+   "Creativity also contributes to strategy and problem framing, not only the visual execution of a data-selected campaign.",
+   "Evidence supports decisions, while creativity and judgment help interpret the evidence and design a useful response.",
+   "Experiments inform decisions but still require interpretation, judgment, and attention to their limits."
+  ]
  },
  {
   "id": "ch1-08",
@@ -146,7 +188,13 @@ export const questions = [
    "An idea or behavior"
   ],
   "answer": 3,
-  "explanation": "Marketing can encourage adoption of ideas and behaviors, including conservation. A commercial product is not required."
+  "explanation": "Marketing can encourage adoption of ideas and behaviors, including conservation. A commercial product is not required.",
+  "optionExplanations": [
+   "No activity is being performed for a customer under a service offering; the aim is adopting conservation behavior.",
+   "Facts may support the campaign, but the desired adoption concerns a behavior rather than information itself.",
+   "A changed routine is not necessarily a marketed experience; the core proposition is conservation.",
+   "Marketing can encourage adoption of ideas and behaviors, including conservation. A commercial product is not required."
+  ]
  },
  {
   "id": "ch1-09",
@@ -159,7 +207,13 @@ export const questions = [
    "Globalization, the physical environment, customer segmentation, and digital communication"
   ],
   "answer": 0,
-  "explanation": "These four forces reshape market conditions. The four Ps are a different framework and should not be substituted for these forces."
+  "explanation": "These four forces reshape market conditions. The four Ps are a different framework and should not be substituted for these forces.",
+  "optionExplanations": [
+   "These four forces reshape market conditions. The four Ps are a different framework and should not be substituted for these forces.",
+   "Demographics and competition matter, but this is not the chapter’s specified four-force grouping.",
+   "Economic and industry conditions are relevant, but they replace globalization and the physical environment in this list.",
+   "Segmentation and communication are marketing decisions or activities, not the complete four-force grouping."
+  ]
  },
  {
   "id": "ch1-10",
@@ -172,7 +226,13 @@ export const questions = [
    "A replacement of relational buying with price-based comparison"
   ],
   "answer": 1,
-  "explanation": "Online information helps customers evaluate alternatives independently. Firms need credible, useful information and dependable experiences."
+  "explanation": "Online information helps customers evaluate alternatives independently. Firms need credible, useful information and dependable experiences.",
+  "optionExplanations": [
+   "The buyer uses more accessible information; the scenario does not say intermediaries were removed.",
+   "Online information helps customers evaluate alternatives independently. Firms need credible, useful information and dependable experiences.",
+   "Comparing specifications does not establish a transfer of formal technical-evaluation responsibility.",
+   "Better information can coexist with relationship buying; the scenario does not make the choice purely price based."
+  ]
  },
  {
   "id": "ch1-11",
@@ -185,7 +245,13 @@ export const questions = [
    "Market development"
   ],
   "answer": 2,
-  "explanation": "Disintermediation removes an intermediary from an exchange. It changes responsibilities for selling, fulfillment, and customer support."
+  "explanation": "Disintermediation removes an intermediary from an exchange. It changes responsibilities for selling, fulfillment, and customer support.",
+  "optionExplanations": [
+   "Integration coordinates activities or channel stages; the specific change here removes an intermediary.",
+   "Reintermediation adds or restores an intermediary; direct selling removes the distributor in this example.",
+   "Disintermediation removes an intermediary from an exchange. It changes responsibilities for selling, fulfillment, and customer support.",
+   "Direct selling changes the channel but does not necessarily introduce a new customer market."
+  ]
  },
  {
   "id": "ch1-12",
@@ -198,7 +264,13 @@ export const questions = [
    "Private-label products"
   ],
   "answer": 3,
-  "explanation": "A private label is a retailer-owned brand. It can compete with supplier brands on the same shelf."
+  "explanation": "A private label is a retailer-owned brand. It can compete with supplier brands on the same shelf.",
+  "optionExplanations": [
+   "A licensed brand uses rights granted by another owner; the scenario specifies the retailer’s own brand.",
+   "Manufacturer brands belong to producers rather than being introduced as the supermarket’s store brand.",
+   "Co-branding combines brands; no joint branding arrangement is described here.",
+   "A private label is a retailer-owned brand. It can compete with supplier brands on the same shelf."
+  ]
  },
  {
   "id": "ch1-13",
@@ -211,7 +283,13 @@ export const questions = [
    "Globalization"
   ],
   "answer": 0,
-  "explanation": "Resource availability and environmental conditions can affect both customer needs and a firm’s ability to deliver."
+  "explanation": "Resource availability and environmental conditions can affect both customer needs and a firm’s ability to deliver.",
+  "optionExplanations": [
+   "Resource availability and environmental conditions can affect both customer needs and a firm’s ability to deliver.",
+   "Social responsibility concerns how firms should respond; scarcity itself is the environmental condition triggering change.",
+   "Technology may enable a response to scarcity, but it is not the immediate source of the stated change.",
+   "No international market connection is needed to explain a physical resource constraint."
+  ]
  },
  {
   "id": "ch1-14",
@@ -224,7 +302,13 @@ export const questions = [
    "Globalization acting independently of channel technology"
   ],
   "answer": 1,
-  "explanation": "Digital access and cross-border competition work together. Firms must evaluate alternatives beyond their immediate local rivals."
+  "explanation": "Digital access and cross-border competition work together. Firms must evaluate alternatives beyond their immediate local rivals.",
+  "optionExplanations": [
+   "The scenario concerns overseas competition through digital channels, not resource or climate conditions.",
+   "Digital access and cross-border competition work together. Firms must evaluate alternatives beyond their immediate local rivals.",
+   "Dispersed stakeholders alone do not establish a social-responsibility issue in the example.",
+   "Online access is central to how international competition reaches the firm, so technology cannot be excluded."
+  ]
  },
  {
   "id": "ch1-15",
@@ -237,7 +321,13 @@ export const questions = [
    "Use consented data for conversion even when service relevance declines"
   ],
   "answer": 2,
-  "explanation": "Richer information and automation should improve useful outcomes. Privacy and trust remain part of responsible execution."
+  "explanation": "Richer information and automation should improve useful outcomes. Privacy and trust remain part of responsible execution.",
+  "optionExplanations": [
+   "Using personal data before establishing appropriate permission or grounds does not demonstrate responsible practice.",
+   "High spending does not establish permission or justify a particular use of personal information.",
+   "Richer information and automation should improve useful outcomes. Privacy and trust remain part of responsible execution.",
+   "Consent alone does not make irrelevant targeting useful; responsible capability use should also serve customers meaningfully."
+  ]
  },
  {
   "id": "ch1-16",
@@ -250,7 +340,13 @@ export const questions = [
    "Explain the force, resulting behavior, response, and consequence"
   ],
   "answer": 3,
-  "explanation": "Good case analysis connects a market change to customer or company behavior, then to a justified action and its implications."
+  "explanation": "Good case analysis connects a market change to customer or company behavior, then to a justified action and its implications.",
+  "optionExplanations": [
+   "This jumps from a trend to a campaign without explaining the changed behavior or why the response should work.",
+   "Assuming effectiveness skips the causal reasoning and consequences needed to justify the response.",
+   "Cost comparison and immediate sales omit the link between the market force and customer behavior.",
+   "Good case analysis connects a market change to customer or company behavior, then to a justified action and its implications."
+  ]
  },
  {
   "id": "ch1-17",
@@ -263,7 +359,13 @@ export const questions = [
    "Market value"
   ],
   "answer": 0,
-  "explanation": "The production concept emphasizes efficiency, affordability, and availability. Its risk is overlooking what customers actually need."
+  "explanation": "The production concept emphasizes efficiency, affordability, and availability. Its risk is overlooking what customers actually need.",
+  "optionExplanations": [
+   "The production concept emphasizes efficiency, affordability, and availability. Its risk is overlooking what customers actually need.",
+   "A selling orientation centers on persuasion and moving existing output, rather than efficiency and availability themselves.",
+   "Affordable access can support marketing, but the stated starting priority is production efficiency rather than researched needs.",
+   "Company efficiency alone does not demonstrate balanced value for customers, collaborators, and the company."
+  ]
  },
  {
   "id": "ch1-18",
@@ -276,7 +378,13 @@ export const questions = [
    "Market value"
   ],
   "answer": 1,
-  "explanation": "The product concept stresses technical quality and features. Improvement is useful when it contributes to relevant customer benefits."
+  "explanation": "The product concept stresses technical quality and features. Improvement is useful when it contributes to relevant customer benefits.",
+  "optionExplanations": [
+   "Marketing would test whether the features solve chosen customers’ problems; that evidence is missing.",
+   "The product concept stresses technical quality and features. Improvement is useful when it contributes to relevant customer benefits.",
+   "Production orientation stresses efficiency, affordability, and availability rather than feature superiority.",
+   "Technical differentiation alone does not show that all three parties gain viable value."
+  ]
  },
  {
   "id": "ch1-19",
@@ -289,7 +397,13 @@ export const questions = [
    "Product"
   ],
   "answer": 2,
-  "explanation": "The selling concept starts with the existing offering and emphasizes persuasion. A marketing orientation would also question customer fit."
+  "explanation": "The selling concept starts with the existing offering and emphasizes persuasion. A marketing orientation would also question customer fit.",
+  "optionExplanations": [
+   "Production concerns making output efficiently; this statement focuses on persuading buyers to take existing stock.",
+   "The statement starts from inventory already made, rather than investigating needs before choosing the offering.",
+   "The selling concept starts with the existing offering and emphasizes persuasion. A marketing orientation would also question customer fit.",
+   "Product orientation emphasizes superior features or quality, not aggressive promotion to clear stock."
+  ]
  },
  {
   "id": "ch1-20",
@@ -302,7 +416,13 @@ export const questions = [
    "Marketing"
   ],
   "answer": 3,
-  "explanation": "The marketing concept begins with selected customers and their needs, using those insights to guide the offering."
+  "explanation": "The marketing concept begins with selected customers and their needs, using those insights to guide the offering.",
+  "optionExplanations": [
+   "A product decision is involved, but the orientation is established by starting with researched customer occasions.",
+   "Selling starts with persuading people to buy an existing offer; this bakery first investigates needs.",
+   "Any efficiency benefit is incidental; the described reason for choosing the range is customer understanding.",
+   "The marketing concept begins with selected customers and their needs, using those insights to guide the offering."
+  ]
  },
  {
   "id": "ch1-21",
@@ -315,7 +435,13 @@ export const questions = [
    "Customers, regulators, and local communities"
   ],
   "answer": 0,
-  "explanation": "Customers need worthwhile benefits, collaborators need reasons to participate, and the company needs sustainable returns."
+  "explanation": "Customers need worthwhile benefits, collaborators need reasons to participate, and the company needs sustainable returns.",
+  "optionExplanations": [
+   "Customers need worthwhile benefits, collaborators need reasons to participate, and the company needs sustainable returns.",
+   "Employees and shareholders matter, but this list omits collaborators from the chapter’s three-party value system.",
+   "Competitors affect choices but are not one of the three parties whose participation makes this offering viable.",
+   "These are important stakeholders, but the specified framework focuses on customer, collaborator, and company value."
+  ]
  },
  {
   "id": "ch1-22",
@@ -328,7 +454,13 @@ export const questions = [
    "We lead the water-tank industry through engineering excellence"
   ],
   "answer": 1,
-  "explanation": "A customer-outcome definition highlights the underlying need and allows alternative solutions. It should remain specific enough to guide decisions."
+  "explanation": "A customer-outcome definition highlights the underlying need and allows alternative solutions. It should remain specific enough to guide decisions.",
+  "optionExplanations": [
+   "This still defines the business around a particular tank format and may overlook substitute solutions.",
+   "A customer-outcome definition highlights the underlying need and allows alternative solutions. It should remain specific enough to guide decisions.",
+   "Durable containers and dimensions describe products rather than the underlying water-access outcome.",
+   "Engineering leadership remains a product-centered definition and may miss alternative ways to meet the need."
+  ]
  },
  {
   "id": "ch1-23",
@@ -341,7 +473,13 @@ export const questions = [
    "Insufficient market demand"
   ],
   "answer": 2,
-  "explanation": "Customer satisfaction alone cannot sustain a business. The model must also support company economics and continued delivery."
+  "explanation": "Customer satisfaction alone cannot sustain a business. The model must also support company economics and continued delivery.",
+  "optionExplanations": [
+   "Customers are enthusiastic; the direct evidence of failure is the provider’s inability to cover unavoidable delivery costs.",
+   "A partner shortfall could matter, but no collaborator economics are specified in this scenario.",
+   "Customer satisfaction alone cannot sustain a business. The model must also support company economics and continued delivery.",
+   "The example shows customer appeal, not a demonstrated shortage of buyers; the explicit problem is company economics."
+  ]
  },
  {
   "id": "ch1-24",
@@ -354,7 +492,13 @@ export const questions = [
    "It is too broad to guide customer and investment choices"
   ],
   "answer": 3,
-  "explanation": "A useful market-oriented definition centers on meaningful customer outcomes while retaining boundaries for decisions."
+  "explanation": "A useful market-oriented definition centers on meaningful customer outcomes while retaining boundaries for decisions.",
+  "optionExplanations": [
+   "Defining benefits can reduce myopia; the problem is that these benefits and customers are too unspecified to guide choices.",
+   "An enduring business definition need not contain a short-term sales target to be useful.",
+   "The statement does not supply clear investment priorities; that lack of direction is the central weakness.",
+   "A useful market-oriented definition centers on meaningful customer outcomes while retaining boundaries for decisions."
+  ]
  },
  {
   "id": "ch1-25",
@@ -367,7 +511,13 @@ export const questions = [
    "Performance marketing"
   ],
   "answer": 0,
-  "explanation": "The emphasis is on mutually valuable connections over time. Lower initial margins are part of the trade-off, but measuring those margins would concern performance marketing; coordinating the offering would concern integrated marketing."
+  "explanation": "The emphasis is on mutually valuable connections over time. Lower initial margins are part of the trade-off, but measuring those margins would concern performance marketing; coordinating the offering would concern integrated marketing.",
+  "optionExplanations": [
+   "The emphasis is on mutually valuable connections over time. Lower initial margins are part of the trade-off, but measuring those margins would concern performance marketing; coordinating the offering would concern integrated marketing.",
+   "Integrated marketing aligns activities and the offering; the primary emphasis here is ongoing mutually beneficial connections.",
+   "Internal marketing equips employees; employee readiness is not the central action described.",
+   "Performance marketing evaluates results and impacts; measuring margin differs from investing in long-term relationships."
+  ]
  },
  {
   "id": "ch1-26",
@@ -380,7 +530,13 @@ export const questions = [
    "Performance marketing"
   ],
   "answer": 1,
-  "explanation": "Integrated marketing aligns activities and promises. Advertising, inventory, channels, and fulfillment must reinforce one another."
+  "explanation": "Integrated marketing aligns activities and promises. Advertising, inventory, channels, and fulfillment must reinforce one another.",
+  "optionExplanations": [
+   "Trust may suffer, but the immediate mismatch is between communication and actual delivery capability.",
+   "Integrated marketing aligns activities and promises. Advertising, inventory, channels, and fulfillment must reinforce one another.",
+   "Training could be one remedy, but no employee skill gap is established as the primary problem.",
+   "Measuring results matters, but the case directly demonstrates inconsistent parts of the offering."
+  ]
  },
  {
   "id": "ch1-27",
@@ -393,7 +549,13 @@ export const questions = [
    "Performance marketing"
   ],
   "answer": 2,
-  "explanation": "Internal marketing equips and motivates employees to serve customers well. A promise is credible only when people can deliver it."
+  "explanation": "Internal marketing equips and motivates employees to serve customers well. A promise is credible only when people can deliver it.",
+  "optionExplanations": [
+   "Long-term relationships may improve, but the direct action equips and empowers employees.",
+   "Activities may become more aligned, but the specific mechanism described is employee capability and support.",
+   "Internal marketing equips and motivates employees to serve customers well. A promise is credible only when people can deliver it.",
+   "Performance marketing concerns results and broader effects; training and authority are internal preparation."
+  ]
  },
  {
   "id": "ch1-28",
@@ -406,7 +568,13 @@ export const questions = [
    "Performance marketing"
   ],
   "answer": 3,
-  "explanation": "Performance marketing examines financial outcomes and relevant environmental and social effects."
+  "explanation": "Performance marketing examines financial outcomes and relevant environmental and social effects.",
+  "optionExplanations": [
+   "Combining measures is not the meaning of integrated marketing, which aligns activities delivering the offering.",
+   "Stakeholder trust may be affected, but the described activity is evaluating financial and societal results.",
+   "Employees may act responsibly, but the question describes management’s evaluation of impacts rather than employee preparation.",
+   "Performance marketing examines financial outcomes and relevant environmental and social effects."
+  ]
  },
  {
   "id": "ch1-29",
@@ -419,7 +587,13 @@ export const questions = [
    "The marketing department controls every customer-experience decision"
   ],
   "answer": 0,
-  "explanation": "Holistic marketing recognizes connections across relationships, activities, people, and results. Isolated improvements can fail if the system is misaligned."
+  "explanation": "Holistic marketing recognizes connections across relationships, activities, people, and results. Isolated improvements can fail if the system is misaligned.",
+  "optionExplanations": [
+   "Holistic marketing recognizes connections across relationships, activities, people, and results. Isolated improvements can fail if the system is misaligned.",
+   "Identical creative execution is narrower than coordinating the offering, people, relationships, and results.",
+   "CRM is useful for relationships, but holistic marketing extends beyond customer-data coordination.",
+   "Holistic marketing requires cross-functional responsibility, not centralized ownership of every decision by marketing."
+  ]
  },
  {
   "id": "ch1-30",
@@ -432,7 +606,13 @@ export const questions = [
    "Every department meets its own target under a shared campaign schedule"
   ],
   "answer": 1,
-  "explanation": "Visual consistency helps, but integration also requires coherent decisions about the offering and its delivery."
+  "explanation": "Visual consistency helps, but integration also requires coherent decisions about the offering and its delivery.",
+  "optionExplanations": [
+   "Matching slogans cannot compensate for conflicting delivery promises; integration extends beyond communication consistency.",
+   "Visual consistency helps, but integration also requires coherent decisions about the offering and its delivery.",
+   "A shared brand does not establish that channel prices, service, and delivery support one value proposition.",
+   "Separate target achievement can still produce a poor customer experience when departmental activities conflict."
+  ]
  },
  {
   "id": "ch1-31",
@@ -445,7 +625,13 @@ export const questions = [
    "Collect more feedback to inform promotion before fixing fulfillment"
   ],
   "answer": 2,
-  "explanation": "Internal and integrated marketing must support the promise. More attention can magnify an existing delivery failure."
+  "explanation": "Internal and integrated marketing must support the promise. More attention can magnify an existing delivery failure.",
+  "optionExplanations": [
+   "Changing targeting may disguise rather than resolve the employees’ inability to fulfill the current promise.",
+   "Repositioning cannot establish credible flexibility while capability remains unable to deliver what is promised.",
+   "Internal and integrated marketing must support the promise. More attention can magnify an existing delivery failure.",
+   "Feedback can inform improvement, but collecting it alone does not equip staff or align operations."
+  ]
  },
  {
   "id": "ch1-32",
@@ -458,7 +644,13 @@ export const questions = [
    "A marketing network"
   ],
   "answer": 3,
-  "explanation": "A marketing network includes the company and the stakeholders with whom it has built valuable business relationships."
+  "explanation": "A marketing network includes the company and the stakeholders with whom it has built valuable business relationships.",
+  "optionExplanations": [
+   "A channel describes the route of distribution; the network includes a wider set of mutually valuable relationships.",
+   "A buying center comprises participants in an organizational purchase decision, not this wider relationship system.",
+   "A communication program is an activity; the parties and their relationships form the marketing network.",
+   "A marketing network includes the company and the stakeholders with whom it has built valuable business relationships."
+  ]
  },
  {
   "id": "ch1-33",
@@ -471,7 +663,13 @@ export const questions = [
    "Matrix organization"
   ],
   "answer": 0,
-  "explanation": "A functional structure organizes expertise by activity. Its coordination challenge is preventing specialist silos."
+  "explanation": "A functional structure organizes expertise by activity. Its coordination challenge is preventing specialist silos.",
+  "optionExplanations": [
+   "A functional structure organizes expertise by activity. Its coordination challenge is preventing specialist silos.",
+   "Product organization gives responsibility to offerings or brands; these specialists are grouped by activity.",
+   "Market organization groups teams by customer segments rather than advertising or research functions.",
+   "A matrix combines authority dimensions; no dual reporting arrangement is described."
+  ]
  },
  {
   "id": "ch1-34",
@@ -484,7 +682,13 @@ export const questions = [
    "Product organization"
   ],
   "answer": 1,
-  "explanation": "Geographic organization focuses responsibility on territories and local conditions, although some work may be duplicated."
+  "explanation": "Geographic organization focuses responsibility on territories and local conditions, although some work may be duplicated.",
+  "optionExplanations": [
+   "Countries may contain segments, but the stated grouping criterion is geographic territory.",
+   "Geographic organization focuses responsibility on territories and local conditions, although some work may be duplicated.",
+   "Repeating similar functions in each country does not make the primary organizing dimension functional.",
+   "The scenario separates countries rather than assigning teams to distinct products or brands."
+  ]
  },
  {
   "id": "ch1-35",
@@ -497,7 +701,13 @@ export const questions = [
    "Functional organization"
   ],
   "answer": 2,
-  "explanation": "Market organization groups work around customer segments or industries with distinct needs."
+  "explanation": "Market organization groups work around customer segments or industries with distinct needs.",
+  "optionExplanations": [
+   "Industry-specific offers may result, but the team boundaries are based on customer markets.",
+   "Industry clusters may exist, but no territorial grouping is specified.",
+   "Market organization groups work around customer segments or industries with distinct needs.",
+   "Each team may contain specialists; its defining grouping is the industry served rather than a single function."
+  ]
  },
  {
   "id": "ch1-36",
@@ -510,7 +720,13 @@ export const questions = [
    "A matrix structure"
   ],
   "answer": 3,
-  "explanation": "A matrix combines organizing dimensions. It can improve access to expertise but requires clear authority and priorities."
+  "explanation": "A matrix combines organizing dimensions. It can improve access to expertise but requires clear authority and priorities.",
+  "optionExplanations": [
+   "Occasional consultation does not establish the dual reporting lines specified in the scenario.",
+   "Advisory support is weaker than reporting to both a country and product team.",
+   "Specialist expertise alone does not explain authority across both product and territory dimensions.",
+   "A matrix combines organizing dimensions. It can improve access to expertise but requires clear authority and priorities."
+  ]
  },
  {
   "id": "ch1-37",
@@ -523,7 +739,13 @@ export const questions = [
    "Operations creates value; marketing communicates the operational offering"
   ],
   "answer": 0,
-  "explanation": "Marketing helps understand and shape value, but operations, finance, IT, sales, HR, and service also affect the customer experience."
+  "explanation": "Marketing helps understand and shape value, but operations, finance, IT, sales, HR, and service also affect the customer experience.",
+  "optionExplanations": [
+   "Marketing helps understand and shape value, but operations, finance, IT, sales, HR, and service also affect the customer experience.",
+   "Other functions must contribute insight and judgment, not merely execute decisions owned by marketing.",
+   "Direct contact matters, but product, finance, HR, and operations also shape the value experienced.",
+   "Operations delivers many benefits, but value also depends on market choice, offering design, and other functions."
+  ]
  },
  {
   "id": "ch1-38",
@@ -536,7 +758,13 @@ export const questions = [
    "Set satisfaction goals and let functions pursue them independently"
   ],
   "answer": 1,
-  "explanation": "Senior leadership establishes priorities and enables coordinated delivery. Customer orientation needs organizational support."
+  "explanation": "Senior leadership establishes priorities and enables coordinated delivery. Customer orientation needs organizational support.",
+  "optionExplanations": [
+   "The CEO’s organization-wide role cannot be discharged solely by delegating campaigns to the CMO.",
+   "Senior leadership establishes priorities and enables coordinated delivery. Customer orientation needs organizational support.",
+   "Investments may fail if departmental incentives continue to undermine the service promise.",
+   "Independent pursuit of satisfaction goals can preserve silos; coordination and compatible incentives are needed."
+  ]
  },
  {
   "id": "ch1-39",
@@ -549,7 +777,13 @@ export const questions = [
    "Keeping product strategy within marketing to preserve brand positioning"
   ],
   "answer": 2,
-  "explanation": "Marketing leadership connects customer understanding, organizational capability, sales alignment, and accountability for results."
+  "explanation": "Marketing leadership connects customer understanding, organizational capability, sales alignment, and accountability for results.",
+  "optionExplanations": [
+   "Centralizing decisions can obstruct shared responsibility; the role includes bringing insight across functions.",
+   "Lead generation is one activity, but it does not encompass market understanding and organizational alignment.",
+   "Marketing leadership connects customer understanding, organizational capability, sales alignment, and accountability for results.",
+   "Protecting positioning requires collaboration with product and operating teams rather than exclusive departmental control."
+  ]
  },
  {
   "id": "ch1-40",
@@ -562,7 +796,13 @@ export const questions = [
    "The best choice depends on the firm’s customers, offerings, and coordination needs"
   ],
   "answer": 3,
-  "explanation": "There is no universally best structure. The design must fit the business and clarify responsibility."
+  "explanation": "There is no universally best structure. The design must fit the business and clarify responsibility.",
+  "optionExplanations": [
+   "Larger size does not make a matrix universally appropriate; its coordination costs and authority issues still matter.",
+   "Market structures can help, but product expertise or other organizing needs may justify different designs.",
+   "Geographic structures can duplicate functions even when local needs differ; the trade-off must be assessed.",
+   "There is no universally best structure. The design must fit the business and clarify responsibility."
+  ]
  },
  {
   "id": "ch1-41",
@@ -575,7 +815,13 @@ export const questions = [
    "Whether loyalty incentives could improve repeat orders before diagnosing checkout"
   ],
   "answer": 0,
-  "explanation": "Downloads measure initial adoption, not successful value delivery. Investigate usability, availability, price clarity, and fulfillment before increasing acquisition."
+  "explanation": "Downloads measure initial adoption, not successful value delivery. Investigate usability, availability, price clarity, and fulfillment before increasing acquisition.",
+  "optionExplanations": [
+   "Downloads measure initial adoption, not successful value delivery. Investigate usability, availability, price clarity, and fulfillment before increasing acquisition.",
+   "More acquisition can send additional users into the same unresolved purchase barrier.",
+   "Awareness may matter, but it does not explain why people already using the app fail to complete orders.",
+   "Retention incentives do not first diagnose the initial transaction failures visible in this case."
+  ]
  },
  {
   "id": "ch1-42",
@@ -588,7 +834,13 @@ export const questions = [
    "Target-market attractiveness is insufficient"
   ],
   "answer": 1,
-  "explanation": "The value system must give delivery partners incentives and resources to participate. Customer appeal does not solve weak partner economics."
+  "explanation": "The value system must give delivery partners incentives and resources to participate. Customer appeal does not solve weak partner economics.",
+  "optionExplanations": [
+   "The explicit shortfall is installer compensation; the provider’s own economics are not stated.",
+   "The value system must give delivery partners incentives and resources to participate. Customer appeal does not solve weak partner economics.",
+   "Buyers’ enthusiasm does not establish installation economics; the scenario directly identifies a partner-value problem.",
+   "The attractiveness of the customer segment is not the demonstrated obstacle; partner participation is economically weak."
+  ]
  },
  {
   "id": "ch1-43",
@@ -601,7 +853,13 @@ export const questions = [
    "Reduce price to improve procurement’s assessment of the specifications"
   ],
   "answer": 2,
-  "explanation": "A marketing orientation translates capabilities into outcomes customers value, supported by credible evidence. A feature list alone may not address the problem."
+  "explanation": "A marketing orientation translates capabilities into outcomes customers value, supported by credible evidence. A feature list alone may not address the problem.",
+  "optionExplanations": [
+   "Technical rankings help only if their relevance to the buyer’s downtime problem is established.",
+   "A warranty may transfer some costs but does not demonstrate that downtime will actually be reduced.",
+   "A marketing orientation translates capabilities into outcomes customers value, supported by credible evidence. A feature list alone may not address the problem.",
+   "A discount changes price without explaining whether the capabilities address the stated operational problem."
+  ]
  },
  {
   "id": "ch1-44",
@@ -614,7 +872,13 @@ export const questions = [
    "Whether the target customers find the meaning relevant and the actual experience delivers"
   ],
   "answer": 3,
-  "explanation": "Emotional benefits can be valuable, but they must matter to the selected audience and be supported by the real offering."
+  "explanation": "Emotional benefits can be valuable, but they must matter to the selected audience and be supported by the real offering.",
+  "optionExplanations": [
+   "Recall can improve without a relevant meaning or a satisfactory actual product experience.",
+   "Distinctiveness can aid competition but does not alone establish benefits that matter to the target buyer.",
+   "Broad engagement does not show that the chosen customers value the meaning or receive the promised experience.",
+   "Emotional benefits can be valuable, but they must matter to the selected audience and be supported by the real offering."
+  ]
  },
  {
   "id": "ch1-45",
@@ -627,7 +891,13 @@ export const questions = [
    "Use phased-launch wording without reconciling delivery capacity"
   ],
   "answer": 0,
-  "explanation": "Customer value depends on cross-functional coordination. Promises should reflect a credible delivery system."
+  "explanation": "Customer value depends on cross-functional coordination. Promises should reflect a credible delivery system.",
+  "optionExplanations": [
+   "Customer value depends on cross-functional coordination. Promises should reflect a credible delivery system.",
+   "Selecting more tolerant customers does not make the unsupported deployment commitment achievable.",
+   "Escalation manages failure after the event but does not reconcile conflicting capacity and departmental incentives.",
+   "Wording can adjust expectations only if it reflects a delivery process the functions can actually support."
+  ]
  },
  {
   "id": "ch1-46",
@@ -640,7 +910,13 @@ export const questions = [
    "Repeat purchasing is lower than the campaign forecast"
   ],
   "answer": 1,
-  "explanation": "Unavailable sizes are a specific, testable explanation. A strong case answer diagnoses the mechanism behind the poor outcome."
+  "explanation": "Unavailable sizes are a specific, testable explanation. A strong case answer diagnoses the mechanism behind the poor outcome.",
+  "optionExplanations": [
+   "Lower conversion is another outcome to explain; it does not identify what prevents purchase.",
+   "Unavailable sizes are a specific, testable explanation. A strong case answer diagnoses the mechanism behind the poor outcome.",
+   "A revenue shortfall restates weak performance instead of revealing the customer-level cause.",
+   "A repeat-purchase shortfall is a symptom, not evidence explaining the reason for it."
+  ]
  },
  {
   "id": "ch1-47",
@@ -653,7 +929,13 @@ export const questions = [
    "Initial average order value among converted customers"
   ],
   "answer": 2,
-  "explanation": "Revenue is not profitability. Evaluating relevant costs helps reveal whether the activity produces sustainable business value."
+  "explanation": "Revenue is not profitability. Evaluating relevant costs helps reveal whether the activity produces sustainable business value.",
+  "optionExplanations": [
+   "Ignoring refunds overstates retained revenue and omits important transaction costs.",
+   "Gross attributed orders can look strong while returns and fulfillment erase the economic benefit.",
+   "Revenue is not profitability. Evaluating relevant costs helps reveal whether the activity produces sustainable business value.",
+   "Order value measures basket size, not contribution after campaign, delivery, and return costs."
+  ]
  },
  {
   "id": "ch1-48",
@@ -666,7 +948,13 @@ export const questions = [
    "A narrow view of the need and competing solutions"
   ],
   "answer": 3,
-  "explanation": "Competition includes alternative ways of meeting the same need. A product-bound view can hide substitutes and emerging opportunities."
+  "explanation": "Competition includes alternative ways of meeting the same need. A product-bound view can hide substitutes and emerging opportunities.",
+  "optionExplanations": [
+   "Expanding the geographic list of classroom firms still overlooks other ways to meet the learning need.",
+   "Promotion may be weak, but the stated failure is defining competing solutions too narrowly.",
+   "The scenario concerns competing learning formats, not evidence of confusion between buyer segments.",
+   "Competition includes alternative ways of meeting the same need. A product-bound view can hide substitutes and emerging opportunities."
+  ]
  }
 ];
 export const notes = [

@@ -16,9 +16,19 @@ test('play a full mission through UI events, persist, resume, and retry misses',
  const saved=()=>JSON.parse(store.get('marketquest-ch1-v1'));
  click({action:'start',mode:'mission',topic:'foundations'});
  assert.match(main.innerHTML,/QUESTION 1 \/ 8/);
+ assert.doesNotMatch(main.innerHTML,/class="choice-review"/);
  for(let i=0;i<8;i++){
   const q=questions[i];click({answer:String(i===0?(q.answer+1)%4:q.answer)});
   assert.match(main.innerHTML,/explanation/);
+  assert.equal((main.innerHTML.match(/class="choice-reason /g)||[]).length,4);
+  assert.equal((main.innerHTML.match(/class="your-selection"/g)||[]).length,1);
+  const escape=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const displayOrder=saved().run.items[i].order;
+  let previous=-1;
+  for(const option of displayOrder){
+   const reasonIndex=main.innerHTML.indexOf(escape(q.optionExplanations[option]),main.innerHTML.indexOf('class="choice-review"'));
+   assert.ok(reasonIndex>previous,'Each rationale follows its shuffled display order');previous=reasonIndex;
+  }
   assert.equal(saved().run.answers.length,i+1);
   // Duplicate submission must not earn XP or count twice.
   click({answer:String(q.answer)});assert.equal(saved().run.answers.length,i+1);
@@ -26,6 +36,7 @@ test('play a full mission through UI events, persist, resume, and retry misses',
   click({action:'next'});
  }
  assert.match(main.innerHTML,/ROUND COMPLETE/);
+ assert.equal((main.innerHTML.match(/class="choice-reason /g)||[]).length,32);
  assert.equal(saved().progress.runs,1);
  assert.deepEqual(saved().progress.missed,['ch1-01']);
  assert.equal(saved().run.answers.filter(a=>a.correct).length,7);

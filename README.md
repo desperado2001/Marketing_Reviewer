@@ -70,3 +70,7 @@ Content was checked against the supplied 17th-edition textbook, Chapter 4 (print
 ## Challenge answer choices
 
 All five chapters use revised distractors based on closely related concepts, incomplete interpretations, and plausible management actions. The 240 question IDs, correct answer text/indexes, and chapter storage keys are retained so prior progress and saved rounds remain compatible. Choices are shuffled each round. The harder bank is a content revision, not a separate difficulty mode.
+
+## Explanation for every choice
+
+All 240 questions include four option-specific rationales (960 in total). After submitting, learners see each displayed option labeled correct or incorrect, their selected answer, and the reason for that judgment. The same reasoning appears in end-of-round review in the original shuffled display order. Nothing is revealed before submission. Existing IDs, answer keys, scores, and storage keys are preserved.

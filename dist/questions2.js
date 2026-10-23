@@ -1,4 +1,4 @@
-// Original study material with plausible, concept-based challenge choices. No publisher test-bank content.
+// Original study material with an explanation for every answer choice.
 export const topics = [
  {
   "id": "planning",
@@ -55,7 +55,13 @@ export const questions = [
    "Functional marketing implementation"
   ],
   "answer": 0,
-  "explanation": "Corporate planning addresses the business portfolio and allocation of resources. It sets direction for business-unit and offering-level plans."
+  "explanation": "Corporate planning addresses the business portfolio and allocation of resources. It sets direction for business-unit and offering-level plans.",
+  "optionExplanations": [
+   "Corporate planning addresses the business portfolio and allocation of resources. It sets direction for business-unit and offering-level plans.",
+   "Business-unit planning decides how one business competes; the question allocates resources among different businesses.",
+   "Offering tactics configure a particular offer, rather than distributing corporate investment among businesses.",
+   "Implementation organizes execution of an existing direction, not the corporate portfolio decision itself."
+  ]
  },
  {
   "id": "ch2-02",
@@ -68,7 +74,13 @@ export const questions = [
    "Functional sales implementation"
   ],
   "answer": 1,
-  "explanation": "Business-unit planning determines how a particular business competes. Offering-level plans then translate that direction into specific market offerings."
+  "explanation": "Business-unit planning determines how a particular business competes. Offering-level plans then translate that direction into specific market offerings.",
+  "optionExplanations": [
+   "Portfolio planning decides which businesses to operate and fund; this question concerns competition within one business.",
+   "Business-unit planning determines how a particular business competes. Offering-level plans then translate that direction into specific market offerings.",
+   "A single offering’s tactical design follows the broader unit’s choice of how to compete.",
+   "Sales implementation executes activities rather than determining the business’s competitive approach."
+  ]
  },
  {
   "id": "ch2-03",
@@ -81,7 +93,13 @@ export const questions = [
    "Offer the widest range of household water-storage products"
   ],
   "answer": 2,
-  "explanation": "A mission expresses an enduring purpose. Sales targets and temporary promotions are time-bound objectives or tactics rather than the reason for the organization’s existence."
+  "explanation": "A mission expresses an enduring purpose. Sales targets and temporary promotions are time-bound objectives or tactics rather than the reason for the organization’s existence.",
+  "optionExplanations": [
+   "A three-year leadership position is a time-bound ambition rather than the organization’s enduring purpose.",
+   "This is a measurable short-term objective; a mission explains why the business exists.",
+   "A mission expresses an enduring purpose. Sales targets and temporary promotions are time-bound objectives or tactics rather than the reason for the organization’s existence.",
+   "This defines assortment breadth, which is a product-centered priority rather than a customer-centered enduring purpose."
+  ]
  },
  {
   "id": "ch2-04",
@@ -94,7 +112,13 @@ export const questions = [
    "Incentives and behavior contradict the stated purpose"
   ],
   "answer": 3,
-  "explanation": "Culture is reflected in actions, rewards, and routines. Customer-focused language cannot compensate for incentives that encourage promises the company cannot deliver."
+  "explanation": "Culture is reflected in actions, rewards, and routines. Customer-focused language cannot compensate for incentives that encourage promises the company cannot deliver.",
+  "optionExplanations": [
+   "Measurement may help, but the direct contradiction is rewarding deals that undermine the service purpose.",
+   "No evidence establishes a changed segment preference; the case explicitly describes conflicting incentives.",
+   "Better communication cannot make delivery promises dependable when rewards encourage unrealistic commitments.",
+   "Culture is reflected in actions, rewards, and routines. Customer-focused language cannot compensate for incentives that encourage promises the company cannot deliver."
+  ]
  },
  {
   "id": "ch2-05",
@@ -107,7 +131,13 @@ export const questions = [
    "A specialist function with its own expense budget and staff"
   ],
   "answer": 0,
-  "explanation": "An SBU has a business logic that can be planned separately, its own competitive setting, and management responsible for strategy and performance."
+  "explanation": "An SBU has a business logic that can be planned separately, its own competitive setting, and management responsible for strategy and performance.",
+  "optionExplanations": [
+   "An SBU has a business logic that can be planned separately, its own competitive setting, and management responsible for strategy and performance.",
+   "A brand budget does not establish separate strategic planning, distinct competitors, and accountable business management.",
+   "Separate quotas do not establish an independent strategic business when accountability remains shared.",
+   "A function can control spending without operating as a separately plannable competitive business."
+  ]
  },
  {
   "id": "ch2-06",
@@ -120,7 +150,13 @@ export const questions = [
    "Diversify"
   ],
   "answer": 1,
-  "explanation": "Grow means committing resources to develop a business. It should reflect opportunity, competitive strength, and the investment needed rather than revenue alone."
+  "explanation": "Grow means committing resources to develop a business. It should reflect opportunity, competitive strength, and the investment needed rather than revenue alone.",
+  "optionExplanations": [
+   "Hold maintains a position; this decision commits additional resources to expansion.",
+   "Grow means committing resources to develop a business. It should reflect opportunity, competitive strength, and the investment needed rather than revenue alone.",
+   "Harvest limits new investment while extracting returns, the opposite of the stated investment increase.",
+   "Expansion of an existing business does not necessarily enter new or unrelated businesses."
+  ]
  },
  {
   "id": "ch2-07",
@@ -133,7 +169,13 @@ export const questions = [
    "Divest"
   ],
   "answer": 2,
-  "explanation": "Harvesting limits new investment while drawing returns from the business. It does not necessarily mean shutting it down immediately."
+  "explanation": "Harvesting limits new investment while drawing returns from the business. It does not necessarily mean shutting it down immediately.",
+  "optionExplanations": [
+   "Hold sustains the business’s position; deliberately limiting investment to extract cash signals harvest.",
+   "Current cash generation does not establish an intention to expand; management is restricting further investment.",
+   "Harvesting limits new investment while drawing returns from the business. It does not necessarily mean shutting it down immediately.",
+   "Divest exits or disposes of the business; harvesting can continue operations and cash generation."
+  ]
  },
  {
   "id": "ch2-08",
@@ -146,7 +188,13 @@ export const questions = [
    "Consider market attractiveness, competitive strength, resource needs, and strategic fit"
   ],
   "answer": 3,
-  "explanation": "Good portfolio decisions look beyond current revenue. A smaller business may deserve investment if its future opportunity and the firm’s position justify it."
+  "explanation": "Good portfolio decisions look beyond current revenue. A smaller business may deserve investment if its future opportunity and the firm’s position justify it.",
+  "optionExplanations": [
+   "Current revenue alone can favor mature units while overlooking future opportunity and strategic fit.",
+   "Growth is attractive only alongside the firm’s capacity to compete and the resources required.",
+   "Equal funding need not match unequal opportunities, strengths, or strategic roles across units.",
+   "Good portfolio decisions look beyond current revenue. A smaller business may deserve investment if its future opportunity and the firm’s position justify it."
+  ]
  },
  {
   "id": "ch2-09",
@@ -159,7 +207,13 @@ export const questions = [
    "Consumers, competitors, communication, company, and collaborators"
   ],
   "answer": 0,
-  "explanation": "The Five Cs organize the market setting: who is served, the alternatives, delivery partners, company capabilities, and the external environment."
+  "explanation": "The Five Cs organize the market setting: who is served, the alternatives, delivery partners, company capabilities, and the external environment.",
+  "optionExplanations": [
+   "The Five Cs organize the market setting: who is served, the alternatives, delivery partners, company capabilities, and the external environment.",
+   "These are useful considerations but replace the specified company, collaborators, and context categories.",
+   "Costs belong within analysis but do not replace competitors as one of the Five Cs.",
+   "Communication is a tactic; the specified market-setting framework includes context instead."
+  ]
  },
  {
   "id": "ch2-10",
@@ -172,7 +226,13 @@ export const questions = [
    "A company capability"
   ],
   "answer": 1,
-  "explanation": "Competitors include alternative ways to satisfy the same customer need. They do not have to sell an identical product or use the same business label."
+  "explanation": "Competitors include alternative ways to satisfy the same customer need. They do not have to sell an identical product or use the same business label.",
+  "optionExplanations": [
+   "The alternative competes for the same household need; it is not helping deliver this supplier’s offering.",
+   "Competitors include alternative ways to satisfy the same customer need. They do not have to sell an identical product or use the same business label.",
+   "A substitute is a specific competing solution rather than merely a general environmental condition.",
+   "The conventional tank is an external alternative, not a capability possessed by the slim-tank supplier."
+  ]
  },
  {
   "id": "ch2-11",
@@ -185,7 +245,13 @@ export const questions = [
    "Customers"
   ],
   "answer": 2,
-  "explanation": "The company category includes internal resources and capabilities. The experience of its own installation team is an internal capability, rather than an external condition."
+  "explanation": "The company category includes internal resources and capabilities. The experience of its own installation team is an internal capability, rather than an external condition.",
+  "optionExplanations": [
+   "The question specifies the supplier’s own team; external installation partners would be collaborators.",
+   "External labor conditions would be context; this existing team is a resource of the company.",
+   "The company category includes internal resources and capabilities. The experience of its own installation team is an internal capability, rather than an external condition.",
+   "Customers receive installation benefits but do not own the supplier’s installation capability."
+  ]
  },
  {
   "id": "ch2-12",
@@ -198,7 +264,13 @@ export const questions = [
    "Context"
   ],
   "answer": 3,
-  "explanation": "Context includes external conditions affecting the opportunity. Company-owned capabilities and resources should be analyzed separately."
+  "explanation": "Context includes external conditions affecting the opportunity. Company-owned capabilities and resources should be analyzed separately.",
+  "optionExplanations": [
+   "Budget and supply changes influence buyers but describe wider external conditions rather than the customers themselves.",
+   "They affect competitors but are not competing offerings or suppliers.",
+   "Their effect on profits does not make these external conditions internal company capabilities.",
+   "Context includes external conditions affecting the opportunity. Company-owned capabilities and resources should be analyzed separately."
+  ]
  },
  {
   "id": "ch2-13",
@@ -211,7 +283,13 @@ export const questions = [
    "The target market"
   ],
   "answer": 0,
-  "explanation": "Collaborators work with the company to create or deliver customer value. Their incentives and capabilities affect whether the offer can succeed."
+  "explanation": "Collaborators work with the company to create or deliver customer value. Their incentives and capabilities affect whether the offer can succeed.",
+  "optionExplanations": [
+   "Collaborators work with the company to create or deliver customer value. Their incentives and capabilities affect whether the offer can succeed.",
+   "Selling under one brand does not turn independent delivery partners into the supplier’s own organization.",
+   "These identifiable partners actively help deliver the offering; context covers the broader external setting.",
+   "They support the offering rather than being the households the supplier aims to serve."
+  ]
  },
  {
   "id": "ch2-14",
@@ -224,7 +302,13 @@ export const questions = [
    "Customers, the company, and society"
   ],
   "answer": 1,
-  "explanation": "A viable offering must be attractive to customers, workable for collaborators, and sustainable for the company. These parties can value different benefits."
+  "explanation": "A viable offering must be attractive to customers, workable for collaborators, and sustainable for the company. These parties can value different benefits.",
+  "optionExplanations": [
+   "Employees and investors matter, but this list omits collaborators as a distinct value recipient.",
+   "A viable offering must be attractive to customers, workable for collaborators, and sustainable for the company. These parties can value different benefits.",
+   "Competitors influence choice but are not one of the three parties whose participation the offering must sustain.",
+   "Societal value matters, but the chapter’s specific 3-V framework includes collaborators as the third party."
+  ]
  },
  {
   "id": "ch2-15",
@@ -237,7 +321,13 @@ export const questions = [
    "Adequate competitive value"
   ],
   "answer": 2,
-  "explanation": "Customer appeal is insufficient when partners lack the economics or resources to participate reliably. The collaborator proposition needs attention."
+  "explanation": "Customer appeal is insufficient when partners lack the economics or resources to participate reliably. The collaborator proposition needs attention.",
+  "optionExplanations": [
+   "The direct evidence concerns partners’ costs; the provider’s own profitability is not specified.",
+   "Buyer appeal is described, while the explicit obstacle is partners’ inability to sustain delivery.",
+   "Customer appeal is insufficient when partners lack the economics or resources to participate reliably. The collaborator proposition needs attention.",
+   "Competitive conditions may affect economics, but competitive value is not the relevant party in the 3-V principle."
+  ]
  },
  {
   "id": "ch2-16",
@@ -250,7 +340,13 @@ export const questions = [
    "Each party has sufficient reasons to participate in a viable offering"
   ],
   "answer": 3,
-  "explanation": "Balance does not mean equal financial gains. The benefits, sacrifices, and roles differ, but the offering must remain worthwhile for all three parties."
+  "explanation": "Balance does not mean equal financial gains. The benefits, sacrifices, and roles differ, but the offering must remain worthwhile for all three parties.",
+  "optionExplanations": [
+   "Different parties contribute and value different things; viability does not require equal financial returns.",
+   "Ignoring partner and company economics can destroy the system delivering the customer benefit.",
+   "Identical incentives can be unsuitable when collaborators have different costs, roles, and contributions.",
+   "Balance does not mean equal financial gains. The benefits, sacrifices, and roles differ, but the offering must remain worthwhile for all three parties."
+  ]
  },
  {
   "id": "ch2-17",
@@ -263,7 +359,13 @@ export const questions = [
    "Use partner workshops to demonstrate simpler operations"
   ],
   "answer": 0,
-  "explanation": "Strategy selects the market and the value to create. Campaign execution details and promotional incentives are tactical choices that should follow that strategy."
+  "explanation": "Strategy selects the market and the value to create. Campaign execution details and promotional incentives are tactical choices that should follow that strategy.",
+  "optionExplanations": [
+   "Strategy selects the market and the value to create. Campaign execution details and promotional incentives are tactical choices that should follow that strategy.",
+   "This specifies product and service components, translating a strategy into the tactical offering.",
+   "The payment arrangement is a price tactic rather than a target-market and value choice.",
+   "Workshops are a communication activity; the statement does not choose the market and value to create."
+  ]
  },
  {
   "id": "ch2-18",
@@ -276,7 +378,13 @@ export const questions = [
    "It defines an offering without approving a campaign budget"
   ],
   "answer": 1,
-  "explanation": "A communication activity does not explain whom the company serves or why its offering should be chosen. Those strategic choices guide the activity."
+  "explanation": "A communication activity does not explain whom the company serves or why its offering should be chosen. Those strategic choices guide the activity.",
+  "optionExplanations": [
+   "Responsibilities are an implementation issue; the more fundamental omission is the target customer and value proposition.",
+   "A communication activity does not explain whom the company serves or why its offering should be chosen. Those strategic choices guide the activity.",
+   "Choosing a channel does not establish a distinctive position or the reason customers should choose the offering.",
+   "Advertising is a communication activity rather than a complete offering whose only gap is budget approval."
+  ]
  },
  {
   "id": "ch2-19",
@@ -289,7 +397,13 @@ export const questions = [
    "Product, service, promotion, price, incentives, channel, and packaging"
   ],
   "answer": 2,
-  "explanation": "The chapter’s seven tactics make the offering concrete. The services-marketing seven Ps and G-STIC are different frameworks."
+  "explanation": "The chapter’s seven tactics make the offering concrete. The services-marketing seven Ps and G-STIC are different frameworks.",
+  "optionExplanations": [
+   "This resembles the services 7-P mix, not the chapter’s seven specified offering tactics.",
+   "Positioning is a strategic value choice; this list omits incentives from the seven tactics.",
+   "The chapter’s seven tactics make the offering concrete. The services-marketing seven Ps and G-STIC are different frameworks.",
+   "Promotion, channel, and packaging do not reproduce the chapter’s product–service–brand and incentive distinctions."
+  ]
  },
  {
   "id": "ch2-20",
@@ -302,7 +416,13 @@ export const questions = [
    "An incentive"
   ],
   "answer": 3,
-  "explanation": "The listed charge is the price; the temporary voucher is an additional inducement. Separating them clarifies the role of the promotion."
+  "explanation": "The listed charge is the price; the temporary voucher is an additional inducement. Separating them clarifies the role of the promotion.",
+  "optionExplanations": [
+   "The listed amount is the price; the temporary voucher is an additional inducement to act.",
+   "Advertising the voucher communicates it, but the voucher’s economic function is an incentive.",
+   "Discounts can affect brand meaning, but the directly classified decision is the purchase inducement.",
+   "The listed charge is the price; the temporary voucher is an additional inducement. Separating them clarifies the role of the promotion."
+  ]
  },
  {
   "id": "ch2-21",
@@ -315,7 +435,13 @@ export const questions = [
    "Product"
   ],
   "answer": 0,
-  "explanation": "Distribution concerns how customers obtain the offering. A message describing pickup is communication, while the actual pickup arrangement delivers access."
+  "explanation": "Distribution concerns how customers obtain the offering. A message describing pickup is communication, while the actual pickup arrangement delivers access.",
+  "optionExplanations": [
+   "Distribution concerns how customers obtain the offering. A message describing pickup is communication, while the actual pickup arrangement delivers access.",
+   "Staff may provide service at pickup, but specifying how customers obtain the cake is distribution.",
+   "Informing customers about a branch is communication; arranging collection there makes the offer accessible.",
+   "Cake features define the product; the collection route is a separate distribution decision."
+  ]
  },
  {
   "id": "ch2-22",
@@ -328,7 +454,13 @@ export const questions = [
    "Distribution"
   ],
   "answer": 1,
-  "explanation": "Assistance is part of the service accompanying the core product. The cake itself and its physical attributes are product decisions."
+  "explanation": "Assistance is part of the service accompanying the core product. The cake itself and its physical attributes are product decisions.",
+  "optionExplanations": [
+   "A customized cake changes the product, but the assistance guiding that choice is a service.",
+   "Assistance is part of the service accompanying the core product. The cake itself and its physical attributes are product decisions.",
+   "Explanation is involved, but interactive ordering assistance is part of customer support rather than only promotion.",
+   "The channel can carry the assistance, but its function is helping the customer complete customization."
+  ]
  },
  {
   "id": "ch2-23",
@@ -341,7 +473,13 @@ export const questions = [
    "Product, service, and incentives"
   ],
   "answer": 2,
-  "explanation": "The more detailed framework separates the core product, accompanying service, and brand meaning rather than leaving them in one broad category."
+  "explanation": "The more detailed framework separates the core product, accompanying service, and brand meaning rather than leaving them in one broad category.",
+  "optionExplanations": [
+   "Communication belongs to the promotion side of the mapping, not the expanded Product group.",
+   "Distribution maps to Place rather than the Product group.",
+   "The more detailed framework separates the core product, accompanying service, and brand meaning rather than leaving them in one broad category.",
+   "Incentives map to Promotion rather than the Product group."
+  ]
  },
  {
   "id": "ch2-24",
@@ -354,7 +492,13 @@ export const questions = [
    "Connect market and value choices with the specific tactical offering"
   ],
   "answer": 3,
-  "explanation": "The map helps check whether the offering translates strategy into coherent decisions. A promise must be supported by product, service, pricing, and delivery choices."
+  "explanation": "The map helps check whether the offering translates strategy into coherent decisions. A promise must be supported by product, service, pricing, and delivery choices.",
+  "optionExplanations": [
+   "Market-size estimation is demand analysis; the map connects strategic value decisions with offering design.",
+   "SBU investment allocation is corporate portfolio planning, not the map’s offering-level purpose.",
+   "Territory sales monitoring is control; the map primarily organizes the link from strategy to tactics.",
+   "The map helps check whether the offering translates strategy into coherent decisions. A promise must be supported by product, service, pricing, and delivery choices."
+  ]
  },
  {
   "id": "ch2-25",
@@ -367,7 +511,13 @@ export const questions = [
    "Goal, strategy, targeting, implementation, communication"
   ],
   "answer": 0,
-  "explanation": "G-STIC links the desired outcome to market choices, the offering, execution, and evaluation. Its logic is sequential, but evidence can require revisiting earlier choices."
+  "explanation": "G-STIC links the desired outcome to market choices, the offering, execution, and evaluation. Its logic is sequential, but evidence can require revisiting earlier choices.",
+  "optionExplanations": [
+   "G-STIC links the desired outcome to market choices, the offering, execution, and evaluation. Its logic is sequential, but evidence can require revisiting earlier choices.",
+   "Segmentation and targeting can inform strategy but do not replace Strategy and Tactics as G-STIC elements.",
+   "Integration matters, but the I in this framework is Implementation.",
+   "Targeting belongs within strategy and communication within tactics; neither replaces the named elements."
+  ]
  },
  {
   "id": "ch2-26",
@@ -380,7 +530,13 @@ export const questions = [
    "Improve paid-deployment conversion after completing the pilot"
   ],
   "answer": 1,
-  "explanation": "The goal states an observable outcome, a quantitative benchmark, and a temporal benchmark. Management should also establish why that outcome is the right success measure."
+  "explanation": "The goal states an observable outcome, a quantitative benchmark, and a temporal benchmark. Management should also establish why that outcome is the right success measure.",
+  "optionExplanations": [
+   "Significantly does not specify the required performance level, and launch has no explicit duration here.",
+   "The goal states an observable outcome, a quantitative benchmark, and a temporal benchmark. Management should also establish why that outcome is the right success measure.",
+   "A deadline is present, but preferred partner lacks a defined measurable benchmark.",
+   "The direction of improvement is stated without a numerical target or definite completion deadline."
+  ]
  },
  {
   "id": "ch2-27",
@@ -393,7 +549,13 @@ export const questions = [
    "A market strategy because sessions specify how to reach customers"
   ],
   "answer": 2,
-  "explanation": "An activity can support a goal without proving that the goal has been achieved. Workshops should be connected to relevant adoption, customer, or business results."
+  "explanation": "An activity can support a goal without proving that the goal has been achieved. Workshops should be connected to relevant adoption, customer, or business results.",
+  "optionExplanations": [
+   "Capability development may support strategy, but the session count is not itself the desired strategic result.",
+   "Counting completion tracks activity; it does not establish progress toward the plan’s substantive outcome.",
+   "An activity can support a goal without proving that the goal has been achieved. Workshops should be connected to relevant adoption, customer, or business results.",
+   "A workshop route is a communication activity, not the target-market and value-proposition choices defining strategy."
+  ]
  },
  {
   "id": "ch2-28",
@@ -406,7 +568,13 @@ export const questions = [
    "Monetary"
   ],
   "answer": 3,
-  "explanation": "Contribution is a financial outcome. Nonmonetary outcomes such as awareness or customer adoption can serve strategic purposes."
+  "explanation": "Contribution is a financial outcome. Nonmonetary outcomes such as awareness or customer adoption can serve strategic purposes.",
+  "optionExplanations": [
+   "Contribution can support future strategy, but the goal directly measures a financial return.",
+   "Tactics affect contribution, but the question asks the goal’s focus rather than the decisions used to achieve it.",
+   "Measurement after execution does not change the financial nature of the desired result.",
+   "Contribution is a financial outcome. Nonmonetary outcomes such as awareness or customer adoption can serve strategic purposes."
+  ]
  },
  {
   "id": "ch2-29",
@@ -419,7 +587,13 @@ export const questions = [
    "Competitive positioning and the deployment schedule"
   ],
   "answer": 0,
-  "explanation": "Strategy defines the market to serve and the value to create. The offering’s specific tactics should support those choices."
+  "explanation": "Strategy defines the market to serve and the value to create. The offering’s specific tactics should support those choices.",
+  "optionExplanations": [
+   "Strategy defines the market to serve and the value to create. The offering’s specific tactics should support those choices.",
+   "These address portfolio assessment and investment allocation rather than the two offering-level strategy choices.",
+   "Segmentation helps select customers, but the tactical mix is distinct from strategy.",
+   "Positioning relates to value, while a deployment schedule belongs to implementation rather than market selection."
+  ]
  },
  {
   "id": "ch2-30",
@@ -432,7 +606,13 @@ export const questions = [
    "Strategy"
   ],
   "answer": 1,
-  "explanation": "Implementation turns intended action into an executable program. Responsibilities and resources make it clear how the offering will become ready and reach customers."
+  "explanation": "Implementation turns intended action into an executable program. Responsibilities and resources make it clear how the offering will become ready and reach customers.",
+  "optionExplanations": [
+   "Readiness checks can support control, but owners, resources, and dependencies mainly establish execution capability.",
+   "Implementation turns intended action into an executable program. Responsibilities and resources make it clear how the offering will become ready and reach customers.",
+   "Tactics define the offering; allocating resources and responsibilities organizes how it is brought to market.",
+   "Strategy selects the market and value proposition; this list makes execution concrete."
+  ]
  },
  {
   "id": "ch2-31",
@@ -445,7 +625,13 @@ export const questions = [
    "Development covers engineering; deployment covers prelaunch promotion"
   ],
   "answer": 2,
-  "explanation": "Preparing capabilities and the offering establishes readiness. Commercial deployment makes the offering available and delivers it to customers."
+  "explanation": "Preparing capabilities and the offering establishes readiness. Commercial deployment makes the offering available and delivers it to customers.",
+  "optionExplanations": [
+   "Market and value choices are strategic decisions; they are not the development-versus-deployment distinction.",
+   "Brand design and channel selection are offering decisions, not the full distinction between readiness and market operation.",
+   "Preparing capabilities and the offering establishes readiness. Commercial deployment makes the offering available and delivers it to customers.",
+   "Development includes organizational readiness, and deployment includes availability and fulfillment beyond prelaunch promotion."
+  ]
  },
  {
   "id": "ch2-32",
@@ -458,7 +644,13 @@ export const questions = [
    "Execution and market evidence can challenge earlier assumptions"
   ],
   "answer": 3,
-  "explanation": "Monitoring can reveal problems with execution, the offering, or the strategic choices. The plan should be revised at the level justified by the evidence."
+  "explanation": "Monitoring can reveal problems with execution, the offering, or the strategic choices. The plan should be revised at the level justified by the evidence.",
+  "optionExplanations": [
+   "Short-term misses require diagnosis, not automatic revision of every element regardless of cause.",
+   "Independent finalization can conceal conflicts among elements that need to reinforce one another.",
+   "Control informs revisions; it does not replace goals, strategy, tactics, and implementation.",
+   "Monitoring can reveal problems with execution, the offering, or the strategic choices. The plan should be revised at the level justified by the evidence."
+  ]
  },
  {
   "id": "ch2-33",
@@ -471,7 +663,13 @@ export const questions = [
    "Customer satisfaction and collaborator incentives"
   ],
   "answer": 0,
-  "explanation": "Control evaluates progress toward goals and monitors relevant market changes. A plan can miss its goals because of internal execution or changing external conditions."
+  "explanation": "Control evaluates progress toward goals and monitors relevant market changes. A plan can miss its goals because of internal execution or changing external conditions.",
+  "optionExplanations": [
+   "Control evaluates progress toward goals and monitors relevant market changes. A plan can miss its goals because of internal execution or changing external conditions.",
+   "These are performance metrics but omit monitoring the changing environment.",
+   "Both concern execution performance; competitors and contextual changes must also be monitored.",
+   "These stakeholder measures do not cover the full distinction between performance and environmental change."
+  ]
  },
  {
   "id": "ch2-34",
@@ -484,7 +682,13 @@ export const questions = [
    "Acquired customers relative to the sales target"
   ],
   "answer": 1,
-  "explanation": "Revenue and attention do not establish profitability. Relevant costs help determine whether the activity creates sustainable value."
+  "explanation": "Revenue and attention do not establish profitability. Relevant costs help determine whether the activity creates sustainable value.",
+  "optionExplanations": [
+   "Revenue relative to promotion cost omits fulfillment and other costs needed to establish contribution.",
+   "Revenue and attention do not establish profitability. Relevant costs help determine whether the activity creates sustainable value.",
+   "Conversion measures selling effectiveness but does not establish whether converted orders are profitable.",
+   "Acquisition volume can rise while the offering loses money on each customer."
+  ]
  },
  {
   "id": "ch2-35",
@@ -497,7 +701,13 @@ export const questions = [
    "Situation overview, SWOT, promotions, and operating budget"
   ],
   "answer": 2,
-  "explanation": "The summary communicates the proposal; the situation provides context; G-STIC contains the action logic; exhibits support it with detail and evidence."
+  "explanation": "The summary communicates the proposal; the situation provides context; G-STIC contains the action logic; exhibits support it with detail and evidence.",
+  "optionExplanations": [
+   "These contain useful inputs but omit the complete action plan, implementation, and controls.",
+   "A calendar and quotas do not replace strategic value choices, full tactics, and control arrangements.",
+   "The summary communicates the proposal; the situation provides context; G-STIC contains the action logic; exhibits support it with detail and evidence.",
+   "SWOT and promotion budgeting alone leave major G-STIC decisions and the executive synthesis incomplete."
+  ]
  },
  {
   "id": "ch2-36",
@@ -510,7 +720,13 @@ export const questions = [
    "Explain the opportunity, proposal, expected outcome, and decision needed"
   ],
   "answer": 3,
-  "explanation": "A useful executive summary helps decision makers grasp the proposal quickly. The full plan then substantiates its reasoning and execution."
+  "explanation": "A useful executive summary helps decision makers grasp the proposal quickly. The full plan then substantiates its reasoning and execution.",
+  "optionExplanations": [
+   "The summary should help a decision maker grasp the proposal, not reproduce supporting technical detail.",
+   "Purpose provides context, but the summary must communicate the proposed action and decision required.",
+   "A persuasive summary should reflect a substantiated plan rather than benefits asserted before analysis.",
+   "A useful executive summary helps decision makers grasp the proposal quickly. The full plan then substantiates its reasoning and execution."
+  ]
  },
  {
   "id": "ch2-37",
@@ -523,7 +739,13 @@ export const questions = [
    "Control revision"
   ],
   "answer": 0,
-  "explanation": "The market and proposed value remain the same, so a communication change is mainly tactical. A strategic revision changes more fundamental market or value choices."
+  "explanation": "The market and proposed value remain the same, so a communication change is mainly tactical. A strategic revision changes more fundamental market or value choices.",
+  "optionExplanations": [
+   "The market and proposed value remain the same, so a communication change is mainly tactical. A strategic revision changes more fundamental market or value choices.",
+   "The selected segment and value proposition remain unchanged, so the described revision is tactical.",
+   "Changing who executes or how launch work is organized would be implementation; this changes message content.",
+   "Control may trigger the change, but the object being changed is a communication tactic."
+  ]
  },
  {
   "id": "ch2-38",
@@ -536,7 +758,13 @@ export const questions = [
    "Dashboard metrics and performance reporting"
   ],
   "answer": 1,
-  "explanation": "The evidence challenges a strategic assumption. Adjusting campaign presentation alone may not address the underlying mismatch."
+  "explanation": "The evidence challenges a strategic assumption. Adjusting campaign presentation alone may not address the underlying mismatch.",
+  "optionExplanations": [
+   "These tactical changes may not repair a benefit that the chosen customers do not value.",
+   "The evidence challenges a strategic assumption. Adjusting campaign presentation alone may not address the underlying mismatch.",
+   "Execution changes cannot resolve a fundamental mismatch between customer needs and the promised benefit.",
+   "Changing reporting can conceal the mismatch without improving the actual value proposition."
+  ]
  },
  {
   "id": "ch2-39",
@@ -549,7 +777,13 @@ export const questions = [
    "Periodic, standardized, campaign specific, and manager approved"
   ],
   "answer": 2,
-  "explanation": "An audit reviews marketing conditions and activities in a structured and objective way. Regular review can reveal opportunities and issues beyond a single performance metric."
+  "explanation": "An audit reviews marketing conditions and activities in a structured and objective way. Regular review can reveal opportunities and issues beyond a single performance metric.",
+  "optionExplanations": [
+   "Confidentiality and ownership do not replace the specified unbiased and periodic qualities.",
+   "Financial-only, exception-driven review is narrower than a comprehensive periodic marketing audit.",
+   "An audit reviews marketing conditions and activities in a structured and objective way. Regular review can reveal opportunities and issues beyond a single performance metric.",
+   "Standardization and approval do not establish an unbiased review, and a single campaign is too narrow."
+  ]
  },
  {
   "id": "ch2-40",
@@ -562,7 +796,13 @@ export const questions = [
    "An audit investigates broader conditions and causes that indicators may only flag"
   ],
   "answer": 3,
-  "explanation": "A dashboard can reveal an outcome or variance. An audit examines a wider set of assumptions, activities, relationships, and opportunities to identify improvements."
+  "explanation": "A dashboard can reveal an outcome or variance. An audit examines a wider set of assumptions, activities, relationships, and opportunities to identify improvements.",
+  "optionExplanations": [
+   "Audience level is not the defining distinction; both can inform marketing staff and senior leaders.",
+   "Audits examine strategy, operations, and environment, not only finances; dashboards can also report historical results.",
+   "Audits need not wait for campaign completion, and dashboards can support continuing performance assessment.",
+   "A dashboard can reveal an outcome or variance. An audit examines a wider set of assumptions, activities, relationships, and opportunities to identify improvements."
+  ]
  },
  {
   "id": "ch2-41",
@@ -575,7 +815,13 @@ export const questions = [
    "A control gap requiring a more detailed revenue dashboard"
   ],
   "answer": 0,
-  "explanation": "Plans at different levels must reinforce one another. Measures and incentives can pull behavior away from corporate priorities even when individual teams hit their own targets."
+  "explanation": "Plans at different levels must reinforce one another. Measures and incentives can pull behavior away from corporate priorities even when individual teams hit their own targets.",
+  "optionExplanations": [
+   "Plans at different levels must reinforce one another. Measures and incentives can pull behavior away from corporate priorities even when individual teams hit their own targets.",
+   "Different margin patterns do not explain why rewards directly contradict the corporate revenue direction.",
+   "Quantification could help, but the stated priority already conflicts with what teams are rewarded to do.",
+   "A richer dashboard can reveal the conflict but will not by itself align the incentive system."
+  ]
  },
  {
   "id": "ch2-42",
@@ -588,7 +834,13 @@ export const questions = [
    "Offer pickup discounts while continuing to investigate branch performance"
   ],
   "answer": 1,
-  "explanation": "The communication promise requires an operational delivery system. Readiness and coordinated tactics should be established before amplifying the message."
+  "explanation": "The communication promise requires an operational delivery system. Readiness and coordinated tactics should be established before amplifying the message.",
+  "optionExplanations": [
+   "Better forecasting does not alone fix branch stock confirmation, pickup procedures, or staff readiness.",
+   "The communication promise requires an operational delivery system. Readiness and coordinated tactics should be established before amplifying the message.",
+   "Restricting promotion may reduce exposure but leaves the underlying promise unsupported.",
+   "A discount increases inducement without ensuring accurate stock information or dependable collection."
+  ]
  },
  {
   "id": "ch2-43",
@@ -601,7 +853,13 @@ export const questions = [
    "Extend promotion because inquiries validate the value proposition"
   ],
   "answer": 2,
-  "explanation": "The same symptom can have different causes. Investigate the mechanism before choosing a tactical or strategic response."
+  "explanation": "The same symptom can have different causes. Investigate the mechanism before choosing a tactical or strategic response.",
+  "optionExplanations": [
+   "Incentives assume effort is the bottleneck before evidence rules out fit, price, or approval-cycle barriers.",
+   "Response volume cannot establish why qualified people fail to buy; it may reward the wrong audience.",
+   "The same symptom can have different causes. Investigate the mechanism before choosing a tactical or strategic response.",
+   "Inquiries establish interest, not successful value delivery or an economically effective purchase process."
+  ]
  },
  {
   "id": "ch2-44",
@@ -614,7 +872,13 @@ export const questions = [
    "Implementation capacity and collaborator readiness"
   ],
   "answer": 3,
-  "explanation": "Demand does not guarantee scalable delivery. Resource availability, partner capacity, and rollout timing must support the expansion plan."
+  "explanation": "Demand does not guarantee scalable delivery. Resource availability, partner capacity, and rollout timing must support the expansion plan.",
+  "optionExplanations": [
+   "Demand may be attractive; the explicit constraint is the trained team’s ability to serve more customers.",
+   "More patient messaging does not create the missing delivery resources.",
+   "A scale-up trigger does not establish readiness; controls should identify the capacity bottleneck.",
+   "Demand does not guarantee scalable delivery. Resource availability, partner capacity, and rollout timing must support the expansion plan."
+  ]
  },
  {
   "id": "ch2-45",
@@ -627,7 +891,13 @@ export const questions = [
    "Market context and competitive pricing conditions"
   ],
   "answer": 0,
-  "explanation": "Customer adoption can coexist with an unsustainable business model. The company needs sufficient returns to continue delivering the promised service."
+  "explanation": "Customer adoption can coexist with an unsustainable business model. The company needs sufficient returns to continue delivering the promised service.",
+  "optionExplanations": [
+   "Customer adoption can coexist with an unsustainable business model. The company needs sufficient returns to continue delivering the promised service.",
+   "Partners could be affected, but the explicit problem is the service provider pricing below its delivery costs.",
+   "Perceptions may matter, but the stated unavoidable-cost shortfall directly concerns company economics.",
+   "The case gives no external pricing constraint; it identifies an unsustainable offer-level economic choice."
+  ]
  },
  {
   "id": "ch2-46",
@@ -640,7 +910,13 @@ export const questions = [
    "Increase leads to preserve the original sales forecast"
   ],
   "answer": 1,
-  "explanation": "An inaccurate timing assumption may explain the variance. Management should diagnose the buying cycle rather than automatically redesigning the offering or ignoring the shortfall."
+  "explanation": "An inaccurate timing assumption may explain the variance. Management should diagnose the buying cycle rather than automatically redesigning the offering or ignoring the shortfall.",
+  "optionExplanations": [
+   "A discount assumes price causes the delay; the evidence instead challenges the estimated approval timeline.",
+   "An inaccurate timing assumption may explain the variance. Management should diagnose the buying cycle rather than automatically redesigning the offering or ignoring the shortfall.",
+   "Broader targeting changes strategy before establishing whether the longer cycle is normal and manageable.",
+   "More leads do not validate the original timing assumptions or guarantee the forecast’s completion dates."
+  ]
  },
  {
   "id": "ch2-47",
@@ -653,7 +929,13 @@ export const questions = [
    "Controls emphasize metrics that do not capture offering complexity"
   ],
   "answer": 2,
-  "explanation": "The actual offering must deliver the proposed value. Complexity and unexpected charges undermine a promise of simplicity and predictability."
+  "explanation": "The actual offering must deliver the proposed value. Complexity and unexpected charges undermine a promise of simplicity and predictability.",
+  "optionExplanations": [
+   "The target segment is not shown to reject simplicity; the actual configuration contradicts that promise.",
+   "Staff can explain options, but training alone does not remove the complexity or hidden fees.",
+   "The actual offering must deliver the proposed value. Complexity and unexpected charges undermine a promise of simplicity and predictability.",
+   "Better metrics might reveal the problem, but the contradiction exists in the tactical offer itself."
+  ]
  },
  {
   "id": "ch2-48",
@@ -666,7 +948,13 @@ export const questions = [
    "Identify the concept, apply evidence, diagnose the cause, and justify an action"
   ],
   "answer": 3,
-  "explanation": "Strong analysis links specific evidence to a relevant concept and a justified management response. A symptom or vocabulary list alone is not a diagnosis."
+  "explanation": "Strong analysis links specific evidence to a relevant concept and a justified management response. A symptom or vocabulary list alone is not a diagnosis.",
+  "optionExplanations": [
+   "The weakest metric does not establish the cause, and copying a rival may not address the diagnosed problem.",
+   "More promotion is an assumed remedy without evidence about the source of underperformance.",
+   "Listing frameworks and unranked actions does not connect evidence to a prioritized, justified intervention.",
+   "Strong analysis links specific evidence to a relevant concept and a justified management response. A symptom or vocabulary list alone is not a diagnosis."
+  ]
  }
 ];
 export const notes = [

@@ -1,4 +1,4 @@
-// Original study material with plausible, concept-based challenge choices. No publisher test-bank content.
+// Original study material with an explanation for every answer choice.
 export const topics = [
  {
   "id": "markets4",
@@ -55,7 +55,13 @@ export const questions = [
    "The input is approved through a formal procurement process"
   ],
   "answer": 0,
-  "explanation": "The purpose of the purchase matters: flour becomes an input to a commercial offering. The same bag bought for cooking at home would serve a consumer purpose."
+  "explanation": "The purpose of the purchase matters: flour becomes an input to a commercial offering. The same bag bought for cooking at home would serve a consumer purpose.",
+  "optionExplanations": [
+   "The purpose of the purchase matters: flour becomes an input to a commercial offering. The same bag bought for cooking at home would serve a consumer purpose.",
+   "Bulk and wholesale buying can occur in different contexts; commercial use of the flour is the defining feature.",
+   "Employee involvement and frequency do not by themselves establish the purpose of the purchase.",
+   "Formal approval is common in B2B but not required to classify an input used for commercial production."
+  ]
  },
  {
   "id": "ch4-02",
@@ -68,7 +74,13 @@ export const questions = [
    "Reciprocal purchasing"
   ],
   "answer": 1,
-  "explanation": "Demand for the components follows demand for the final appliances. Business marketers should monitor their customers’ downstream markets as well as direct orders."
+  "explanation": "Demand for the components follows demand for the final appliances. Business marketers should monitor their customers’ downstream markets as well as direct orders.",
+  "optionExplanations": [
+   "Fluctuation concerns volatility or amplification; the example directly links input demand to final-product demand.",
+   "Demand for the components follows demand for the final appliances. Business marketers should monitor their customers’ downstream markets as well as direct orders.",
+   "Inelasticity concerns sensitivity to price changes, not the origin of component demand.",
+   "Reciprocal purchasing involves trading with firms that also buy from you; no such relationship is described."
+  ]
  },
  {
   "id": "ch4-03",
@@ -81,7 +93,13 @@ export const questions = [
    "Demand concentration among a few large accounts"
   ],
   "answer": 2,
-  "explanation": "Equipment demand can reflect both replacement and capacity expansion. Small changes in final demand can therefore produce larger swings in capital purchases."
+  "explanation": "Equipment demand can reflect both replacement and capacity expansion. Small changes in final demand can therefore produce larger swings in capital purchases.",
+  "optionExplanations": [
+   "Derived demand explains the downstream link, but this option explicitly excludes the amplification central to the example.",
+   "Price responsiveness is not being tested; the scenario concerns equipment orders changing more than consumer demand.",
+   "Equipment demand can reflect both replacement and capacity expansion. Small changes in final demand can therefore produce larger swings in capital purchases.",
+   "Account concentration concerns the distribution of buyers, not the size of demand swings."
+  ]
  },
  {
   "id": "ch4-04",
@@ -94,7 +112,13 @@ export const questions = [
    "Relatively inelastic demand"
   ],
   "answer": 3,
-  "explanation": "The production method and output needs limit immediate substitution. Inelastic demand means quantity responds relatively little; it does not mean price is irrelevant forever."
+  "explanation": "The production method and output needs limit immediate substitution. Inelastic demand means quantity responds relatively little; it does not mean price is irrelevant forever.",
+  "optionExplanations": [
+   "Derived demand explains where leather demand originates, not its limited short-run response to price.",
+   "Fluctuating demand concerns volatility, whereas purchases here remain relatively stable despite a price change.",
+   "A modified rebuy changes specifications or terms; this observation describes quantity’s sensitivity to price.",
+   "The production method and output needs limit immediate substitution. Inelastic demand means quantity responds relatively little; it does not mean price is irrelevant forever."
+  ]
  },
  {
   "id": "ch4-05",
@@ -107,7 +131,13 @@ export const questions = [
    "Testing a new office-paper grade before adding it to the approved list"
   ],
   "answer": 0,
-  "explanation": "A straight rebuy repeats an established purchase with little new decision effort. Changing specifications or terms would move the example toward a modified rebuy."
+  "explanation": "A straight rebuy repeats an established purchase with little new decision effort. Changing specifications or terms would move the example toward a modified rebuy.",
+  "optionExplanations": [
+   "A straight rebuy repeats an established purchase with little new decision effort. Changing specifications or terms would move the example toward a modified rebuy.",
+   "Revising delivery and payment terms makes this a modified rebuy rather than an unchanged reorder.",
+   "Changed specifications and fresh evaluation are characteristic of a modified rebuy.",
+   "Testing a new grade introduces new evaluation rather than routinely reordering an approved unchanged item."
+  ]
  },
  {
   "id": "ch4-06",
@@ -120,7 +150,13 @@ export const questions = [
    "Systems buying"
   ],
   "answer": 1,
-  "explanation": "The product category is familiar, but important purchase conditions are being reconsidered. A modified rebuy can involve additional participants and supplier evaluation."
+  "explanation": "The product category is familiar, but important purchase conditions are being reconsidered. A modified rebuy can involve additional participants and supplier evaluation.",
+  "optionExplanations": [
+   "The familiar category is not enough: changed terms or requirements make the purchase a modified rebuy.",
+   "The product category is familiar, but important purchase conditions are being reconsidered. A modified rebuy can involve additional participants and supplier evaluation.",
+   "New terms do not necessarily mean a first-time category purchase; the component is already familiar.",
+   "Systems buying concerns an integrated solution, not simply revised commercial or delivery conditions."
+  ]
  },
  {
   "id": "ch4-07",
@@ -133,7 +169,13 @@ export const questions = [
    "Straight rebuy"
   ],
   "answer": 2,
-  "explanation": "A first-time, consequential purchase normally requires substantial specification, evaluation, and risk assessment. Newness concerns the buyer’s situation, not whether the product is new worldwide."
+  "explanation": "A first-time, consequential purchase normally requires substantial specification, evaluation, and risk assessment. Newness concerns the buyer’s situation, not whether the product is new worldwide.",
+  "optionExplanations": [
+   "Experience buying other medical products does not make this first robotic-surgery purchase a familiar rebuy.",
+   "Maintenance needs do not establish a systems-contracting arrangement; the question classifies the buying situation.",
+   "A first-time, consequential purchase normally requires substantial specification, evaluation, and risk assessment. Newness concerns the buyer’s situation, not whether the product is new worldwide.",
+   "A supplier’s experience with other hospitals does not change this buyer’s first-time purchase status."
+  ]
  },
  {
   "id": "ch4-08",
@@ -146,7 +188,13 @@ export const questions = [
    "Fewer buyers placing larger orders"
   ],
   "answer": 3,
-  "explanation": "Business markets often concentrate sales among fewer large accounts. This makes account dependence and close buyer–supplier coordination especially important, though exceptions exist."
+  "explanation": "Business markets often concentrate sales among fewer large accounts. This makes account dependence and close buyer–supplier coordination especially important, though exceptions exist.",
+  "optionExplanations": [
+   "B2B suppliers often customize for large accounts; lower customization is not the typical distinction emphasized.",
+   "Direct purchasing can increase, but professional assessment and formal requirements often increase too.",
+   "Business markets commonly have fewer, larger, sometimes concentrated accounts rather than this opposite pattern.",
+   "Business markets often concentrate sales among fewer large accounts. This makes account dependence and close buyer–supplier coordination especially important, though exceptions exist."
+  ]
  },
  {
   "id": "ch4-09",
@@ -159,7 +207,13 @@ export const questions = [
    "Buyer"
   ],
   "answer": 0,
-  "explanation": "An initiator starts the purchase request by identifying a need. The same manager may later perform other roles, but the action described here is initiating."
+  "explanation": "An initiator starts the purchase request by identifying a need. The same manager may later perform other roles, but the action described here is initiating.",
+  "optionExplanations": [
+   "An initiator starts the purchase request by identifying a need. The same manager may later perform other roles, but the action described here is initiating.",
+   "The manager may use the equipment, but the stated action is first requesting that it be purchased.",
+   "Shaping specifications would show influence; the explicit action here initiates the request.",
+   "Formal negotiation or purchase arrangement would show the buyer role, which is not established by requesting replacement."
+  ]
  },
  {
   "id": "ch4-10",
@@ -172,7 +226,13 @@ export const questions = [
    "Deciders"
   ],
   "answer": 1,
-  "explanation": "Users experience the offering in practice and often help specify requirements. Using equipment does not automatically confer final approval or purchasing authority."
+  "explanation": "Users experience the offering in practice and often help specify requirements. Using equipment does not automatically confer final approval or purchasing authority.",
+  "optionExplanations": [
+   "Operating equipment does not establish that the technicians initiated the purchase request.",
+   "Users experience the offering in practice and often help specify requirements. Using equipment does not automatically confer final approval or purchasing authority.",
+   "Users may influence requirements, but their explicitly stated role is operating the selected equipment.",
+   "Use does not establish authority to determine supplier choice or final requirements."
+  ]
  },
  {
   "id": "ch4-11",
@@ -185,7 +245,13 @@ export const questions = [
    "Approver"
   ],
   "answer": 2,
-  "explanation": "The engineer shapes how alternatives are assessed. Influence over specifications differs from authority to authorize the proposal or negotiate the purchase."
+  "explanation": "The engineer shapes how alternatives are assessed. Influence over specifications differs from authority to authorize the proposal or negotiate the purchase.",
+  "optionExplanations": [
+   "The engineer shapes criteria; the facts do not establish final authority to choose requirements or suppliers.",
+   "Formal authority to arrange purchase terms is not given to the engineer.",
+   "The engineer shapes how alternatives are assessed. Influence over specifications differs from authority to authorize the proposal or negotiate the purchase.",
+   "The engineer explicitly lacks authorization power, which distinguishes influence from approval."
+  ]
  },
  {
   "id": "ch4-12",
@@ -198,7 +264,13 @@ export const questions = [
    "Decider"
   ],
   "answer": 3,
-  "explanation": "Deciders determine product requirements or supplier choices. Authorization may still sit with another person, so identifying the preferred supplier need not complete the purchase."
+  "explanation": "Deciders determine product requirements or supplier choices. Authorization may still sit with another person, so identifying the preferred supplier need not complete the purchase.",
+  "optionExplanations": [
+   "Influencers contribute criteria or advice; this committee determines the supplier meeting the requirements.",
+   "Approvers authorize proposed actions, potentially after the technical choice made here.",
+   "Buyers negotiate and arrange the purchase; the described action is determining supplier suitability.",
+   "Deciders determine product requirements or supplier choices. Authorization may still sit with another person, so identifying the preferred supplier need not complete the purchase."
+  ]
  },
  {
   "id": "ch4-13",
@@ -211,7 +283,13 @@ export const questions = [
    "Gatekeeper"
   ],
   "answer": 0,
-  "explanation": "Approvers authorize the proposed actions of deciders or buyers. This role can be separate from the technical decision and from negotiation of commercial terms."
+  "explanation": "Approvers authorize the proposed actions of deciders or buyers. This role can be separate from the technical decision and from negotiation of commercial terms.",
+  "optionExplanations": [
+   "Approvers authorize the proposed actions of deciders or buyers. This role can be separate from the technical decision and from negotiation of commercial terms.",
+   "Choosing the technical requirements or supplier is the decider role, which has already occurred.",
+   "Negotiating and arranging the transaction is the buyer role rather than the authorization described.",
+   "Controlling access to people or information is the gatekeeper role, not approving expenditure."
+  ]
  },
  {
   "id": "ch4-14",
@@ -224,7 +302,13 @@ export const questions = [
    "Gatekeeper"
   ],
   "answer": 1,
-  "explanation": "Buyers manage supplier selection and purchase arrangements within their authority. Formal purchasing responsibility does not mean they are the only people shaping the outcome."
+  "explanation": "Buyers manage supplier selection and purchase arrangements within their authority. Formal purchasing responsibility does not mean they are the only people shaping the outcome.",
+  "optionExplanations": [
+   "A decider determines requirements or supplier choice; this question emphasizes formal purchase arrangements and negotiation.",
+   "Buyers manage supplier selection and purchase arrangements within their authority. Formal purchasing responsibility does not mean they are the only people shaping the outcome.",
+   "An approver authorizes proposed actions; authority to negotiate does not necessarily include final budget approval.",
+   "A gatekeeper controls access; arranging commercial terms is a different action."
+  ]
  },
  {
   "id": "ch4-15",
@@ -237,7 +321,13 @@ export const questions = [
    "Decider"
   ],
   "answer": 2,
-  "explanation": "Gatekeepers control access to information or participants. Respect the organization’s process while providing relevant material rather than assuming access equals decision authority."
+  "explanation": "Gatekeepers control access to information or participants. Respect the organization’s process while providing relevant material rather than assuming access equals decision authority.",
+  "optionExplanations": [
+   "The coordinator may also buy, but controlling vendor access specifically demonstrates gatekeeping.",
+   "Influence shapes evaluation criteria; access control is the distinctive action in this example.",
+   "Gatekeepers control access to information or participants. Respect the organization’s process while providing relevant material rather than assuming access equals decision authority.",
+   "Permission to meet a team does not establish authority to choose the supplier."
+  ]
  },
  {
   "id": "ch4-16",
@@ -250,7 +340,13 @@ export const questions = [
    "One person may perform several roles, and several people may share a role"
   ],
   "answer": 3,
-  "explanation": "Buying-center roles describe actions and influence, not a fixed organization chart. Map actual participation, decision criteria, and authority rather than inferring everything from titles."
+  "explanation": "Buying-center roles describe actions and influence, not a fixed organization chart. Map actual participation, decision criteria, and authority rather than inferring everything from titles.",
+  "optionExplanations": [
+   "Final authorization may belong to a separate approver; formal purchasing authority does not automatically include it.",
+   "Technical advisers and other participants can significantly influence choices and belong within the buying center.",
+   "Sharing a role does not require equal authority, motives, or evaluation priorities.",
+   "Buying-center roles describe actions and influence, not a fixed organization chart. Map actual participation, decision criteria, and authority rather than inferring everything from titles."
+  ]
  },
  {
   "id": "ch4-17",
@@ -263,7 +359,13 @@ export const questions = [
    "Recognition → need description → specification → supplier search → selection → proposals → contract → review"
   ],
   "answer": 0,
-  "explanation": "The model moves from identifying a problem to defining requirements, evaluating suppliers, agreeing terms, and reviewing results. Routine rebuys may compress or bypass stages."
+  "explanation": "The model moves from identifying a problem to defining requirements, evaluating suppliers, agreeing terms, and reviewing results. Routine rebuys may compress or bypass stages.",
+  "optionExplanations": [
+   "The model moves from identifying a problem to defining requirements, evaluating suppliers, agreeing terms, and reviewing results. Routine rebuys may compress or bypass stages.",
+   "General need description normally precedes detailed specification; this alternative reverses those two stages.",
+   "Potential suppliers are identified before qualified vendors are invited to submit proposals.",
+   "Supplier selection normally follows proposal solicitation and evaluation, not the reverse."
+  ]
  },
  {
   "id": "ch4-18",
@@ -276,7 +378,13 @@ export const questions = [
    "Supplier search"
   ],
   "answer": 1,
-  "explanation": "Recognizing an operational gap starts the buying process. The organization must still define the needed benefits and specifications before comparing detailed supplier offers."
+  "explanation": "Recognizing an operational gap starts the buying process. The organization must still define the needed benefits and specifications before comparing detailed supplier offers.",
+  "optionExplanations": [
+   "Describing quantity and broad required benefits follows recognizing that a problem needs a purchasing response.",
+   "Recognizing an operational gap starts the buying process. The organization must still define the needed benefits and specifications before comparing detailed supplier offers.",
+   "Technical specification follows identifying the problem and the general requirement.",
+   "Searching for sources follows defining the need rather than being the first stage shown here."
+  ]
  },
  {
   "id": "ch4-19",
@@ -289,7 +397,13 @@ export const questions = [
    "Proposal solicitation"
   ],
   "answer": 2,
-  "explanation": "Need description establishes what the organization needs in general terms. Detailed technical requirements belong to product specification, which builds on that description."
+  "explanation": "Need description establishes what the organization needs in general terms. Detailed technical requirements belong to product specification, which builds on that description.",
+  "optionExplanations": [
+   "This stage develops more detailed technical requirements; the example expressly precedes final engineering detail.",
+   "The need has already been recognized, and the team is now describing its general characteristics.",
+   "Need description establishes what the organization needs in general terms. Detailed technical requirements belong to product specification, which builds on that description.",
+   "No suppliers have been invited to submit proposals yet."
+  ]
  },
  {
   "id": "ch4-20",
@@ -302,7 +416,13 @@ export const questions = [
    "Product value analysis"
   ],
   "answer": 3,
-  "explanation": "Value analysis examines design, standardization, and production methods to remove unnecessary cost while preserving required performance. It is broader than simply demanding a discount."
+  "explanation": "Value analysis examines design, standardization, and production methods to remove unnecessary cost while preserving required performance. It is broader than simply demanding a discount.",
+  "optionExplanations": [
+   "Supplier scoring compares vendors against criteria, not whether the component can be redesigned more economically.",
+   "Ownership-cost analysis compares acquisition and use costs; the direct activity here is redesign or standardization.",
+   "Performance review assesses a selected supplier’s delivery after purchase rather than engineering a component.",
+   "Value analysis examines design, standardization, and production methods to remove unnecessary cost while preserving required performance. It is broader than simply demanding a discount."
+  ]
  },
  {
   "id": "ch4-21",
@@ -315,7 +435,13 @@ export const questions = [
    "General need description"
   ],
   "answer": 0,
-  "explanation": "The buyer is identifying possible sources of supply. This precedes requesting proposals and choosing among vendors using the relevant evaluation criteria."
+  "explanation": "The buyer is identifying possible sources of supply. This precedes requesting proposals and choosing among vendors using the relevant evaluation criteria.",
+  "optionExplanations": [
+   "The buyer is identifying possible sources of supply. This precedes requesting proposals and choosing among vendors using the relevant evaluation criteria.",
+   "Solicitation requests written offers from identified suppliers; this buyer is still locating possible sources.",
+   "Selection chooses among evaluated suppliers rather than first identifying who might qualify.",
+   "Need description sets desired characteristics and quantity, not the list of possible vendors."
+  ]
  },
  {
   "id": "ch4-22",
@@ -328,7 +454,13 @@ export const questions = [
    "Contract negotiation"
   ],
   "answer": 1,
-  "explanation": "Proposal solicitation requests comparable offers from potential suppliers. A strong response explains customer outcomes and evidence as well as technical specifications."
+  "explanation": "Proposal solicitation requests comparable offers from potential suppliers. A strong response explains customer outcomes and evidence as well as technical specifications.",
+  "optionExplanations": [
+   "The suppliers are already qualified; this stage requests their proposed solutions.",
+   "Proposal solicitation requests comparable offers from potential suppliers. A strong response explains customer outcomes and evidence as well as technical specifications.",
+   "Selection occurs after the offers are evaluated, not merely when proposals are invited.",
+   "Final terms are negotiated after a supplier is selected; the current activity gathers proposals."
+  ]
  },
  {
   "id": "ch4-23",
@@ -341,7 +473,13 @@ export const questions = [
    "Give all criteria equal weight to balance departmental influence"
   ],
   "answer": 2,
-  "explanation": "Supplier evaluation should reflect the buyer’s actual priorities. Transparent criteria help compare benefits and costs rather than confusing presentation polish with value."
+  "explanation": "Supplier evaluation should reflect the buyer’s actual priorities. Transparent criteria help compare benefits and costs rather than confusing presentation polish with value.",
+  "optionExplanations": [
+   "Ease of verification does not make an attribute the buyer’s most important criterion.",
+   "Discarding the weights at the final choice can select an offer inconsistent with the buyer’s priorities.",
+   "Supplier evaluation should reflect the buyer’s actual priorities. Transparent criteria help compare benefits and costs rather than confusing presentation polish with value.",
+   "Equal weighting can misrepresent real differences in the importance of reliability, service, and price."
+  ]
  },
  {
   "id": "ch4-24",
@@ -354,7 +492,13 @@ export const questions = [
    "Performance review"
   ],
   "answer": 3,
-  "explanation": "Review tests whether the selected supplier delivered expected value. Findings can support continuation, corrective action, changed terms, or ending the relationship."
+  "explanation": "Review tests whether the selected supplier delivered expected value. Findings can support continuation, corrective action, changed terms, or ending the relationship.",
+  "optionExplanations": [
+   "Initial selection precedes implementation; this review concerns the supplier’s actual delivered performance.",
+   "Value analysis examines component design or production methods rather than post-implementation supplier results.",
+   "Review findings may prompt renegotiation, but gathering and rating actual performance is the review stage itself.",
+   "Review tests whether the selected supplier delivered expected value. Findings can support continuation, corrective action, changed terms, or ending the relationship."
+  ]
  },
  {
   "id": "ch4-25",
@@ -367,7 +511,13 @@ export const questions = [
    "Customer-managed integration"
   ],
   "answer": 0,
-  "explanation": "Systems selling supplies a coordinated solution to the buyer’s problem. Accountability and integration must be supported by delivery capability, rather than merely putting items on one quotation."
+  "explanation": "Systems selling supplies a coordinated solution to the buyer’s problem. Accountability and integration must be supported by delivery capability, rather than merely putting items on one quotation.",
+  "optionExplanations": [
+   "Systems selling supplies a coordinated solution to the buyer’s problem. Accountability and integration must be supported by delivery capability, rather than merely putting items on one quotation.",
+   "Selling related products does not necessarily integrate them into one accountable solution.",
+   "A blanket purchase agreement arranges continuing supply but need not provide system integration.",
+   "The customer wants integration responsibility from the provider, not responsibility retained by the customer."
+  ]
  },
  {
   "id": "ch4-26",
@@ -380,7 +530,13 @@ export const questions = [
    "It delegates component choice while preserving separate accountability"
   ],
   "answer": 1,
-  "explanation": "A solution explains how the pieces work together to produce the desired result. A longer bill of materials does not by itself demonstrate customer value or operational readiness."
+  "explanation": "A solution explains how the pieces work together to produce the desired result. A longer bill of materials does not by itself demonstrate customer value or operational readiness.",
+  "optionExplanations": [
+   "One quotation can contain disconnected items without explaining how they solve the buyer’s problem.",
+   "A solution explains how the pieces work together to produce the desired result. A longer bill of materials does not by itself demonstrate customer value or operational readiness.",
+   "Specification compliance can be necessary without establishing the intended operating or business outcomes.",
+   "Separate accountability leaves the buyer to reconcile interfaces rather than providing an integrated solution."
+  ]
  },
  {
   "id": "ch4-27",
@@ -393,7 +549,13 @@ export const questions = [
    "Replace product differentiation with broader communication coverage"
   ],
   "answer": 2,
-  "explanation": "Services can improve use, reliability, and predictability while supporting differentiation. Their economics and delivery quality still need to be assessed rather than assumed."
+  "explanation": "Services can improve use, reliability, and predictability while supporting differentiation. Their economics and delivery quality still need to be assessed rather than assumed.",
+  "optionExplanations": [
+   "Dependence may occur, but limiting alternatives is not the primary value opportunity from genuinely useful services.",
+   "Separate pricing can be viable, but it does not explain the strategic benefit of helping customers use the equipment.",
+   "Services can improve use, reliability, and predictability while supporting differentiation. Their economics and delivery quality still need to be assessed rather than assumed.",
+   "Communication cannot replace useful product and service benefits that sustain the relationship."
+  ]
  },
  {
   "id": "ch4-28",
@@ -406,7 +568,13 @@ export const questions = [
    "It can reduce perceived risk and help managers justify their choice"
   ],
   "answer": 3,
-  "explanation": "A brand can signal competence and reliability and reassure decision makers. Those expectations need evidence and actual performance; reputation alone does not prove suitability."
+  "explanation": "A brand can signal competence and reliability and reassure decision makers. Those expectations need evidence and actual performance; reputation alone does not prove suitability.",
+  "optionExplanations": [
+   "A trusted brand can lower perceived risk but does not remove the need to check technical fit and implementation.",
+   "Lifecycle costs depend on the actual configuration and customer context, not brand reputation alone.",
+   "Brands can reassure buyers, but they do not require or guarantee standardized commercial terms.",
+   "A brand can signal competence and reliability and reassure decision makers. Those expectations need evidence and actual performance; reputation alone does not prove suitability."
+  ]
  },
  {
   "id": "ch4-29",
@@ -419,7 +587,13 @@ export const questions = [
    "Depreciated accounting value at the end of use"
   ],
   "answer": 0,
-  "explanation": "Ownership costs include operating and maintenance costs beyond acquisition. Use comparable assumptions and time horizons so the cheaper-looking option does not hide later expense."
+  "explanation": "Ownership costs include operating and maintenance costs beyond acquisition. Use comparable assumptions and time horizons so the cheaper-looking option does not hide later expense.",
+  "optionExplanations": [
+   "Ownership costs include operating and maintenance costs beyond acquisition. Use comparable assumptions and time horizons so the cheaper-looking option does not hide later expense.",
+   "Acquisition and installation omit the energy and maintenance differences explicitly described.",
+   "Energy alone omits maintenance, purchase, and other relevant lifetime costs.",
+   "Book value is an accounting measure and does not capture the full customer cost of ownership."
+  ]
  },
  {
   "id": "ch4-30",
@@ -432,7 +606,13 @@ export const questions = [
    "Market potential estimation"
   ],
   "answer": 1,
-  "explanation": "Economic value analysis translates functional benefits into money under stated assumptions. Customer-specific evidence is more persuasive than unsupported claims of universal savings."
+  "explanation": "Economic value analysis translates functional benefits into money under stated assumptions. Customer-specific evidence is more persuasive than unsupported claims of universal savings.",
+  "optionExplanations": [
+   "Attribute scoring ranks vendor performance; the question monetizes the customer’s functional benefit.",
+   "Economic value analysis translates functional benefits into money under stated assumptions. Customer-specific evidence is more persuasive than unsupported claims of universal savings.",
+   "Product value analysis studies cheaper design or production without impairing performance; it is not monetizing downtime savings here.",
+   "Market potential estimates the size of demand, not the financial benefits delivered to this buyer."
+  ]
  },
  {
   "id": "ch4-31",
@@ -445,7 +625,13 @@ export const questions = [
    "Use premium positioning itself to justify retaining the quoted price"
   ],
   "answer": 2,
-  "explanation": "Price objections can reflect unclear value as well as affordability. Establish the buyer’s priorities and quantify supported benefits before selecting an appropriate commercial response."
+  "explanation": "Price objections can reflect unclear value as well as affordability. Establish the buyer’s priorities and quantify supported benefits before selecting an appropriate commercial response.",
+  "optionExplanations": [
+   "A premature discount does not establish whether the objection reflects affordability, unclear benefits, or another concern.",
+   "Unwanted features can add cost without improving the value the buyer actually perceives.",
+   "Price objections can reflect unclear value as well as affordability. Establish the buyer’s priorities and quantify supported benefits before selecting an appropriate commercial response.",
+   "Premium positioning is a claim to substantiate, not independent evidence that the buyer receives superior value."
+  ]
  },
  {
   "id": "ch4-32",
@@ -458,7 +644,13 @@ export const questions = [
    "Vendor-managed inventory"
   ],
   "answer": 3,
-  "explanation": "The supplier takes responsibility for replenishment using shared inventory information. This can reduce administrative work but requires clear controls, service expectations, and accurate data."
+  "explanation": "The supplier takes responsibility for replenishment using shared inventory information. This can reduce administrative work but requires clear controls, service expectations, and accurate data.",
+  "optionExplanations": [
+   "A blanket agreement sets continuing supply terms, but it alone does not assign inventory monitoring and replenishment to the vendor.",
+   "Here the supplier, not the customer, uses inventory visibility to manage replenishment.",
+   "Spot purchasing consists of individual market transactions rather than continuous supplier-managed replenishment.",
+   "The supplier takes responsibility for replenishment using shared inventory information. This can reduce administrative work but requires clear controls, service expectations, and accurate data."
+  ]
  },
  {
   "id": "ch4-33",
@@ -471,7 +663,13 @@ export const questions = [
    "Competence, scale, and financial performance"
   ],
   "answer": 0,
-  "explanation": "A credible supplier is capable, acts dependably with customers’ interests in mind, and is attractive to work with. Technical expertise is important but is not the entire picture."
+  "explanation": "A credible supplier is capable, acts dependably with customers’ interests in mind, and is attractive to work with. Technical expertise is important but is not the entire picture.",
+  "optionExplanations": [
+   "A credible supplier is capable, acts dependably with customers’ interests in mind, and is attractive to work with. Technical expertise is important but is not the entire picture.",
+   "Reliability and responsiveness matter but do not reproduce the chapter’s three named credibility dimensions.",
+   "Awareness and familiarity can help recognition without establishing expertise and likability.",
+   "Scale and financial results can signal capability but are not the complete credibility framework."
+  ]
  },
  {
   "id": "ch4-34",
@@ -484,7 +682,13 @@ export const questions = [
    "Purchasing reciprocity"
   ],
   "answer": 1,
-  "explanation": "Trust is strengthened when information and behavior are dependable and aligned with customer needs. Credibility must be sustained through conduct rather than slogans alone."
+  "explanation": "Trust is strengthened when information and behavior are dependable and aligned with customer needs. Credibility must be sustained through conduct rather than slogans alone.",
+  "optionExplanations": [
+   "Awareness concerns recognition; honest comparisons and aligned incentives directly support confidence in dependable conduct.",
+   "Trust is strengthened when information and behavior are dependable and aligned with customer needs. Credibility must be sustained through conduct rather than slogans alone.",
+   "Supplier power concerns dependence or bargaining strength rather than the willingness to rely on honest behavior.",
+   "Reciprocity involves buying from firms that buy from you, which is not stated here."
+  ]
  },
  {
   "id": "ch4-35",
@@ -497,7 +701,13 @@ export const questions = [
    "Diversified capital expenditure"
   ],
   "answer": 2,
-  "explanation": "The investment is tailored to a particular relationship and may have little alternative use. It can improve collaboration while increasing exposure if the relationship ends or terms change."
+  "explanation": "The investment is tailored to a particular relationship and may have little alternative use. It can improve collaboration while increasing exposure if the relationship ends or terms change.",
+  "optionExplanations": [
+   "A general-purpose asset can be redeployed; this machinery is specifically restricted to one customer’s component.",
+   "A volume commitment concerns quantities purchased rather than the specialized machinery investment described.",
+   "The investment is tailored to a particular relationship and may have little alternative use. It can improve collaboration while increasing exposure if the relationship ends or terms change.",
+   "Diversification spreads assets across uses or opportunities; this asset concentrates value in one relationship."
+  ]
  },
  {
   "id": "ch4-36",
@@ -510,7 +720,13 @@ export const questions = [
    "Opportunism and hold-up risk"
   ],
   "answer": 3,
-  "explanation": "Relationship-specific assets can create vulnerability to exploitation. Clear agreements, governance, and aligned long-term incentives help manage the risk while preserving collaboration benefits."
+  "explanation": "Relationship-specific assets can create vulnerability to exploitation. Clear agreements, governance, and aligned long-term incentives help manage the risk while preserving collaboration benefits.",
+  "optionExplanations": [
+   "Exploiting dependence for unfair concessions is not evidence of increasing joint value.",
+   "Safeguards protect agreed value and obligations; the case describes using vulnerability to extract concessions.",
+   "The hard-to-redeploy asset raises dependence; the scenario does not reduce switching costs.",
+   "Relationship-specific assets can create vulnerability to exploitation. Clear agreements, governance, and aligned long-term incentives help manage the risk while preserving collaboration benefits."
+  ]
  },
  {
   "id": "ch4-37",
@@ -523,7 +739,13 @@ export const questions = [
    "Choose relationship depth chiefly through short-term savings"
   ],
   "answer": 0,
-  "explanation": "Not every transaction needs an intensive partnership. The appropriate arrangement depends on alternatives, supply importance and complexity, market conditions, and the economics for both parties."
+  "explanation": "Not every transaction needs an intensive partnership. The appropriate arrangement depends on alternatives, supply importance and complexity, market conditions, and the economics for both parties.",
+  "optionExplanations": [
+   "Not every transaction needs an intensive partnership. The appropriate arrangement depends on alternatives, supply importance and complexity, market conditions, and the economics for both parties.",
+   "An intensive model can waste resources when the supply is routine or the relationship has limited value.",
+   "Volume matters, but importance, complexity, alternatives, and coordination benefits also affect appropriate relationship depth.",
+   "Short-term savings alone can overlook resilience, joint innovation, and relationship-specific costs."
+  ]
  },
  {
   "id": "ch4-38",
@@ -536,7 +758,13 @@ export const questions = [
    "Use food resale margin as the main purchasing criterion"
   ],
   "answer": 1,
-  "explanation": "Institutional buyers serve people in their care and often face tight budgets. The task is to meet necessary service and quality standards, not simply select the cheapest possible input."
+  "explanation": "Institutional buyers serve people in their care and often face tight budgets. The task is to meet necessary service and quality standards, not simply select the cheapest possible input.",
+  "optionExplanations": [
+   "Institutions must meet service and quality standards; food quality is not merely optional if price is low.",
+   "Institutional buyers serve people in their care and often face tight budgets. The task is to meet necessary service and quality standards, not simply select the cheapest possible input.",
+   "Patient satisfaction matters, but the institutional buyer must also operate within limited resources.",
+   "Meals form part of patient care rather than an offering bought mainly to earn resale margin."
+  ]
  },
  {
   "id": "ch4-39",
@@ -549,7 +777,13 @@ export const questions = [
    "Procedures matching those of a similar private enterprise"
   ],
   "answer": 2,
-  "explanation": "Government buying often involves formal requirements and public scrutiny. Follow the specific agency’s published process; the chapter’s overview is not a universal rule about bid awards."
+  "explanation": "Government buying often involves formal requirements and public scrutiny. Follow the specific agency’s published process; the chapter’s overview is not a universal rule about bid awards.",
+  "optionExplanations": [
+   "Government purchases commonly require documented formal procedures before award and delivery, not only retrospective paperwork.",
+   "The applicable agency’s requirements determine evaluation; lowest price is not an unconditional rule for every purchase.",
+   "Government buying often involves formal requirements and public scrutiny. Follow the specific agency’s published process; the chapter’s overview is not a universal rule about bid awards.",
+   "Public accountability and agency-specific procedures can differ materially from those of a private firm."
+  ]
  },
  {
   "id": "ch4-40",
@@ -562,7 +796,13 @@ export const questions = [
    "A disruption can remove the buyer’s only qualified source"
   ],
   "answer": 3,
-  "explanation": "Single sourcing can simplify coordination but concentrates supply risk. Evaluate resilience, alternative capacity, and switching constraints alongside relationship and cost benefits."
+  "explanation": "Single sourcing can simplify coordination but concentrates supply risk. Evaluate resilience, alternative capacity, and switching constraints alongside relationship and cost benefits.",
+  "optionExplanations": [
+   "Price visibility can vary in many arrangements, but it is not the direct concentrated-source vulnerability identified here.",
+   "A long contract does not establish that reviews should be reduced, and this is not the central disruption risk.",
+   "Large orders can result from consolidation, but the risk is losing the sole qualified source during disruption.",
+   "Single sourcing can simplify coordination but concentrates supply risk. Evaluate resilience, alternative capacity, and switching constraints alongside relationship and cost benefits."
+  ]
  },
  {
   "id": "ch4-41",
@@ -575,7 +815,13 @@ export const questions = [
    "Offer departmental packages without reconciling overall requirements"
   ],
   "answer": 0,
-  "explanation": "The concerns represent different buying-center priorities. Address technical fit, economics, and operational risk in a coordinated proposal while confirming who decides and approves."
+  "explanation": "The concerns represent different buying-center priorities. Address technical fit, economics, and operational risk in a coordinated proposal while confirming who decides and approves.",
+  "optionExplanations": [
+   "The concerns represent different buying-center priorities. Address technical fit, economics, and operational risk in a coordinated proposal while confirming who decides and approves.",
+   "Technical preference does not address finance’s economics or operations’ migration concerns, nor guarantee approval.",
+   "Deferring a material operational risk can undermine the business case and cause late-stage failure.",
+   "Separate packages can preserve departmental conflicts rather than producing a workable shared decision."
+  ]
  },
  {
   "id": "ch4-42",
@@ -588,7 +834,13 @@ export const questions = [
    "Systems contracting"
   ],
   "answer": 1,
-  "explanation": "The category and supplier may be familiar, but changed requirements trigger renewed evaluation. Familiarity does not turn a material specification change into an unchanged reorder."
+  "explanation": "The category and supplier may be familiar, but changed requirements trigger renewed evaluation. Familiarity does not turn a material specification change into an unchanged reorder.",
+  "optionExplanations": [
+   "A continuing supplier relationship does not make a material new security requirement an unchanged purchase.",
+   "The category and supplier may be familiar, but changed requirements trigger renewed evaluation. Familiarity does not turn a material specification change into an unchanged reorder.",
+   "The familiar product is being re-evaluated; technical uncertainty alone does not make it a first-time category purchase.",
+   "Ongoing security support does not establish the particular systems-contracting arrangement."
+  ]
  },
  {
   "id": "ch4-43",
@@ -601,7 +853,13 @@ export const questions = [
    "Payment terms as the primary explanation of order-volume changes"
   ],
   "answer": 2,
-  "explanation": "Derived demand connects component sales to final-product consumption. Reviewing downstream conditions can explain order changes that are not caused by the component supplier’s selling effort."
+  "explanation": "Derived demand connects component sales to final-product consumption. Reviewing downstream conditions can explain order changes that are not caused by the component supplier’s selling effort.",
+  "optionExplanations": [
+   "Negotiation style may affect a deal but does not explain the explicit downstream reduction in consumer demand.",
+   "Price comparisons may help competition, but the stated cause is reduced customer production driven by final demand.",
+   "Derived demand connects component sales to final-product consumption. Reviewing downstream conditions can explain order changes that are not caused by the component supplier’s selling effort.",
+   "No payment-term change is specified; treating it as primary overlooks the supplied causal evidence."
+  ]
  },
  {
   "id": "ch4-44",
@@ -614,7 +872,13 @@ export const questions = [
    "The first, at ₱1.4M versus ₱1.6M"
   ],
   "answer": 3,
-  "explanation": "Add acquisition and the stated lifetime costs: 1.0 + 0.4 = 1.4 million, versus 0.9 + 0.7 = 1.6 million. This simplified comparison excludes discounting and any unlisted benefits or costs."
+  "explanation": "Add acquisition and the stated lifetime costs: 1.0 + 0.4 = 1.4 million, versus 0.9 + 0.7 = 1.6 million. This simplified comparison excludes discounting and any unlisted benefits or costs.",
+  "optionExplanations": [
+   "These are acquisition prices only; adding lifetime operating costs reverses the apparent purchase-price advantage.",
+   "These are operating costs only; each must also include the corresponding acquisition cost.",
+   "The sums are 1.0+0.4=1.4 and 0.9+0.7=1.6 million, not 1.5 million each.",
+   "Add acquisition and the stated lifetime costs: 1.0 + 0.4 = 1.4 million, versus 0.9 + 0.7 = 1.6 million. This simplified comparison excludes discounting and any unlisted benefits or costs."
+  ]
  },
  {
   "id": "ch4-45",
@@ -627,7 +891,13 @@ export const questions = [
    "A lower price to compensate for undefined support ownership"
   ],
   "answer": 0,
-  "explanation": "A systems solution must explain who resolves cross-component problems. An attractive bundle can still fail if integration, handoffs, and accountability remain unclear."
+  "explanation": "A systems solution must explain who resolves cross-component problems. An attractive bundle can still fail if integration, handoffs, and accountability remain unclear.",
+  "optionExplanations": [
+   "A systems solution must explain who resolves cross-component problems. An attractive bundle can still fail if integration, handoffs, and accountability remain unclear.",
+   "Shared branding does not assign responsibility for faults spanning different products.",
+   "Training helps users but leaves cross-product fault ownership unresolved.",
+   "A price concession does not establish who must diagnose and resolve integration problems."
+  ]
  },
  {
   "id": "ch4-46",
@@ -640,7 +910,13 @@ export const questions = [
    "Confidentiality terms as a substitute for asset-specific governance"
   ],
   "answer": 1,
-  "explanation": "Specific investments can create mutual value and dependence. Agreements should address changes and disputes so efficiency gains do not leave either party exposed to avoidable hold-up risk."
+  "explanation": "Specific investments can create mutual value and dependence. Agreements should address changes and disputes so efficiency gains do not leave either party exposed to avoidable hold-up risk.",
+  "optionExplanations": [
+   "Recovering investment cost matters, but unclear change and exit terms still expose the parties to dependence-related risks.",
+   "Specific investments can create mutual value and dependence. Agreements should address changes and disputes so efficiency gains do not leave either party exposed to avoidable hold-up risk.",
+   "Avoiding alternatives by informal agreement does not specify performance obligations or manage unanticipated changes.",
+   "Confidentiality protects information but does not alone govern asset dependence, performance, or exit arrangements."
+  ]
  },
  {
   "id": "ch4-47",
@@ -653,7 +929,13 @@ export const questions = [
    "Procurement is the user and the CFO the buyer"
   ],
   "answer": 2,
-  "explanation": "Negotiating purchase terms and authorizing spending are separate roles. A sales team should verify both rather than equating a negotiated proposal with an approved transaction."
+  "explanation": "Negotiating purchase terms and authorizing spending are separate roles. A sales team should verify both rather than equating a negotiated proposal with an approved transaction.",
+  "optionExplanations": [
+   "Procurement is explicitly authorized to negotiate, making it a buyer; CFO spending authorization describes an approver.",
+   "The named actions reverse these labels: procurement negotiates and the CFO approves.",
+   "Negotiating purchase terms and authorizing spending are separate roles. A sales team should verify both rather than equating a negotiated proposal with an approved transaction.",
+   "Procurement’s contract role is not product use, and CFO authorization is not the negotiation function described."
+  ]
  },
  {
   "id": "ch4-48",
@@ -666,7 +948,13 @@ export const questions = [
    "A performance review against agreed requirements"
   ],
   "answer": 3,
-  "explanation": "Compare actual delivery, user experience, and other agreed criteria with expectations. Use the evidence to seek correction, modify the relationship, or consider alternative suppliers."
+  "explanation": "Compare actual delivery, user experience, and other agreed criteria with expectations. Use the evidence to seek correction, modify the relationship, or consider alternative suppliers.",
+  "optionExplanations": [
+   "Ignoring disruption costs can favor a cheap but unreliable supplier despite the actual delivery failures.",
+   "General reputation should not displace evidence of whether this supplier meets the agreed customer requirements.",
+   "Past relationship duration and sunk costs do not establish future performance or justify retaining a failing supplier.",
+   "Compare actual delivery, user experience, and other agreed criteria with expectations. Use the evidence to seek correction, modify the relationship, or consider alternative suppliers."
+  ]
  }
 ];
 export const notes = [
